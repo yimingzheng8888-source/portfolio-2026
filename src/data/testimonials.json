@@ -1,0 +1,62 @@
+[
+  {
+    "id": "testimonial-01",
+    "name": "陈明远",
+    "title": "品牌总监",
+    "company": "极光科技有限公司",
+    "avatar": "/images/testimonials/client-chen.jpg",
+    "rating": 5,
+    "content": "与这位设计师合作是一次非常愉快的体验。他不仅深刻理解我们的品牌愿景，还能提出超出预期的创意方案。最终的品牌VI系统得到了全公司的一致好评，帮助我们在B端市场建立了独特的视觉识别度。项目交付准时，沟通高效，是非常值得信赖的合作伙伴。",
+    "project": "work-brand-01"
+  },
+  {
+    "id": "testimonial-02",
+    "name": "林雨薇",
+    "title": "产品副总裁",
+    "company": "智购科技有限公司",
+    "avatar": "/images/testimonials/client-lin.jpg",
+    "rating": 5,
+    "content": "UI重构项目完成后，我们的用户留存率提升了22%，转化率更是提升了35%。设计师对用户体验的深刻理解和对细节的极致追求，让产品界面既美观又实用。他总能在商业目标与用户体验之间找到最佳平衡点，这种能力在设计师中非常难得。",
+    "project": "work-uiux-01"
+  },
+  {
+    "id": "testimonial-03",
+    "name": "王浩然",
+    "title": "活动策划总监",
+    "company": "草莓音乐节组委会",
+    "avatar": "/images/testimonials/client-wang.jpg",
+    "rating": 5,
+    "content": "音乐节的主视觉设计完美捕捉了活动的灵魂。从动态海报到舞台LED背景，从线上宣传到线下物料，整套视觉系统统一且富有冲击力。现场效果震撼，社交媒体传播数据超出预期300%。明年音乐节我们还会继续合作！",
+    "project": "work-motion-02"
+  },
+  {
+    "id": "testimonial-04",
+    "name": "张雅琴",
+    "title": "主编",
+    "company": "童趣出版社",
+    "avatar": "/images/testimonials/client-zhang.jpg",
+    "rating": 5,
+    "content": "二十四节气绘本的插画质量超出了我们的预期。画面温暖细腻，色彩运用恰到好处，既保留了传统文化的韵味，又符合当代儿童的审美。绘本上市后获得了家长和孩子们的一致好评，销量也远超预期。",
+    "project": "work-illustration-02"
+  },
+  {
+    "id": "testimonial-05",
+    "name": "李思远",
+    "title": "创始人",
+    "company": "灵犀科技有限公司",
+    "avatar": "/images/testimonials/client-li.jpg",
+    "rating": 5,
+    "content": "APP启动动画的设计让我们非常惊喜。粒子汇聚效果不仅美观，更巧妙地传递了'连接'的品牌理念。Lottie输出格式保证了在各平台的高性能运行，用户反馈非常正面。这是一次非常成功的品牌表达。",
+    "project": "work-motion-01"
+  },
+  {
+    "id": "testimonial-06",
+    "name": "赵文博",
+    "title": "市场总监",
+    "company": "云栖茶业集团",
+    "avatar": "/images/testimonials/client-zhao.jpg",
+    "rating": 5,
+    "content": "品牌升级项目让我们这个百年茶企焕发了新的生命力。设计师在保留品牌核心文化基因的同时，引入了现代设计语言，让传统与时尚完美融合。新包装上市后，年轻消费者占比提升了40%，这是实实在在的商业价值。",
+    "project": "work-brand-02"
+  }
+]

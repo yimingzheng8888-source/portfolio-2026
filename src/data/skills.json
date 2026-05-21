@@ -1,0 +1,123 @@
+[
+  {
+    "id": "skill-brand",
+    "label": "品牌设计",
+    "shortDesc": "品牌策略与视觉识别系统",
+    "fullDesc": "从品牌定位到视觉落地的全链路设计能力，包括Logo设计、VI系统、品牌手册、包装设计等。擅长将品牌理念转化为具有商业价值的视觉语言。",
+    "tools": [
+      "Adobe Illustrator",
+      "Adobe Photoshop",
+      "Figma",
+      "Sketch"
+    ],
+    "image": "/images/skills/skill-brand.jpg",
+    "proficiency": 95,
+    "category": "设计类"
+  },
+  {
+    "id": "skill-uiux",
+    "label": "UI/UX 设计",
+    "shortDesc": "用户界面与体验设计",
+    "fullDesc": "以用户为中心的产品设计方法，涵盖用户研究、信息架构、交互设计、视觉设计、可用性测试等全流程。注重数据驱动的设计决策。",
+    "tools": [
+      "Figma",
+      "Sketch",
+      "Principle",
+      "Axure",
+      "Maze"
+    ],
+    "image": "/images/skills/skill-uiux.jpg",
+    "proficiency": 92,
+    "category": "设计类"
+  },
+  {
+    "id": "skill-illustration",
+    "label": "商业插画",
+    "shortDesc": "数字绘画与视觉叙事",
+    "fullDesc": "擅长多种插画风格，包括扁平插画、肌理插画、国潮风、儿童绘本等。能够根据项目需求快速切换风格，为品牌和产品注入独特的视觉个性。",
+    "tools": [
+      "Procreate",
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Clip Studio Paint"
+    ],
+    "image": "/images/skills/skill-illustration.jpg",
+    "proficiency": 88,
+    "category": "设计类"
+  },
+  {
+    "id": "skill-motion",
+    "label": "动态设计",
+    "shortDesc": "MG动画与交互动效",
+    "fullDesc": "将静态设计赋予生命力的能力，包括Logo动画、UI动效、MG动画、动态海报等。熟悉Lottie、After Effects等工具，能够输出高性能的动画资源。",
+    "tools": [
+      "After Effects",
+      "Principle",
+      "Lottie",
+      "Cinema 4D"
+    ],
+    "image": "/images/skills/skill-motion.jpg",
+    "proficiency": 85,
+    "category": "设计类"
+  },
+  {
+    "id": "skill-frontend",
+    "label": "前端开发",
+    "shortDesc": "React / Vue / 响应式开发",
+    "fullDesc": "具备将设计稿高精度还原为代码的能力，熟悉React、Vue等现代前端框架，了解CSS动画、SVG动画等技术。能够独立搭建作品集网站和小型项目。",
+    "tools": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vite",
+      "Git"
+    ],
+    "image": "/images/skills/skill-frontend.jpg",
+    "proficiency": 78,
+    "category": "工具类"
+  },
+  {
+    "id": "skill-3d",
+    "label": "3D设计",
+    "shortDesc": "三维建模与渲染",
+    "fullDesc": "掌握Blender和C4D的三维设计能力，能够进行产品建模、场景搭建、材质渲染等。常用于包装设计预览、产品展示和概念场景创作。",
+    "tools": [
+      "Blender",
+      "Cinema 4D",
+      "Octane Render"
+    ],
+    "image": "/images/skills/skill-3d.jpg",
+    "proficiency": 72,
+    "category": "工具类"
+  },
+  {
+    "id": "skill-communication",
+    "label": "沟通协作",
+    "shortDesc": "跨团队沟通与项目管理",
+    "fullDesc": "具备优秀的沟通能力和项目管理意识，能够准确理解客户需求，高效推进项目进度。熟悉敏捷开发流程，善于协调设计师、开发、运营等多方资源。",
+    "tools": [
+      "Notion",
+      "飞书",
+      "Jira",
+      "Miro"
+    ],
+    "image": "/images/skills/skill-communication.jpg",
+    "proficiency": 90,
+    "category": "软技能"
+  },
+  {
+    "id": "skill-strategy",
+    "label": "设计策略",
+    "shortDesc": "商业思维与品牌策略",
+    "fullDesc": "不仅关注视觉表现，更关注设计背后的商业逻辑。能够从品牌策略、市场定位、用户洞察等维度思考设计问题，提供具有商业价值的创意解决方案。",
+    "tools": [
+      "市场调研",
+      "用户画像",
+      "竞品分析",
+      "品牌定位"
+    ],
+    "image": "/images/skills/skill-strategy.jpg",
+    "proficiency": 82,
+    "category": "软技能"
+  }
+]

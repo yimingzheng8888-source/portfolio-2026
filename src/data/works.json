@@ -1,0 +1,321 @@
+[
+  {
+    "id": "work-brand-01",
+    "title": "极光科技品牌全案设计",
+    "category": "品牌设计",
+    "year": 2025,
+    "client": "极光科技有限公司",
+    "description": "从零构建科技品牌视觉识别系统，涵盖Logo、色彩体系、字体规范及全场景应用。",
+    "fullDescription": "为极光科技有限公司打造完整的品牌视觉识别系统。项目包括品牌策略定位、Logo设计、标准色彩体系、中英文字体规范、办公用品系统、环境导视系统、数字媒体规范等。通过极简几何语言传递科技感与专业度，帮助客户在B端市场建立差异化认知。",
+    "thumbnail": "/images/works/featured/work-brand-01.jpg",
+    "images": [
+      "/images/works/featured/work-brand-01.jpg",
+      "/images/works/detail/work-brand-01-02.jpg"
+    ],
+    "tags": [
+      "品牌",
+      "VI",
+      "Logo",
+      "科技"
+    ],
+    "isFeatured": true,
+    "likes": 128
+  },
+  {
+    "id": "work-brand-02",
+    "title": "云栖茶业品牌升级",
+    "category": "品牌设计",
+    "year": 2024,
+    "client": "云栖茶业集团",
+    "description": "百年茶企现代化品牌重塑，融合传统东方美学与当代设计语言。",
+    "fullDescription": "为拥有百年历史的云栖茶业进行品牌升级。保留品牌核心文化基因的同时，引入现代设计语言，重新设计品牌标识、包装系统、门店空间视觉及线上电商视觉。项目获得2024年中国包装设计大赛金奖。",
+    "thumbnail": "/images/works/grid/work-brand-02.jpg",
+    "images": [
+      "/images/works/grid/work-brand-02.jpg"
+    ],
+    "tags": [
+      "品牌重塑",
+      "包装",
+      "传统",
+      "东方美学"
+    ],
+    "isFeatured": false,
+    "likes": 95
+  },
+  {
+    "id": "work-brand-03",
+    "title": "星辰教育品牌视觉",
+    "category": "品牌设计",
+    "year": 2024,
+    "client": "星辰在线教育",
+    "description": "K12在线教育品牌视觉系统，传递温暖、专业、可信赖的品牌形象。",
+    "fullDescription": "为星辰在线教育设计品牌视觉系统。针对K12教育市场，采用温暖明亮的色彩体系和亲和的图形语言，建立家长与学生的信任感。涵盖品牌标识、课程包装、营销物料、APP视觉规范等。",
+    "thumbnail": "/images/works/grid/work-brand-03.jpg",
+    "images": [
+      "/images/works/grid/work-brand-03.jpg"
+    ],
+    "tags": [
+      "教育",
+      "品牌",
+      "VI",
+      "数字"
+    ],
+    "isFeatured": false,
+    "likes": 76
+  },
+  {
+    "id": "work-uiux-01",
+    "title": "智购电商APP重构",
+    "category": "UI/UX",
+    "year": 2025,
+    "client": "智购科技有限公司",
+    "description": "全链路购物体验优化，转化率提升35%的界面 redesign。",
+    "fullDescription": "对智购电商APP进行全面UI/UX重构。通过用户旅程地图分析痛点，重新设计首页信息流、商品详情页、购物车、结算流程等核心场景。引入智能推荐算法可视化，优化加载性能，最终实现转化率提升35%、用户留存率提升22%。",
+    "thumbnail": "/images/works/featured/work-uiux-01.jpg",
+    "images": [
+      "/images/works/featured/work-uiux-01.jpg",
+      "/images/works/detail/work-uiux-01-02.jpg"
+    ],
+    "tags": [
+      "UI",
+      "UX",
+      "移动端",
+      "电商"
+    ],
+    "isFeatured": true,
+    "likes": 203
+  },
+  {
+    "id": "work-uiux-02",
+    "title": "健康管家医疗平台",
+    "category": "UI/UX",
+    "year": 2024,
+    "client": "健康管家医疗科技",
+    "description": "医疗健康服务平台设计，兼顾专业性与用户友好度。",
+    "fullDescription": "为健康管家医疗科技设计在线医疗服务平台。针对医患两端用户，设计清晰的信息架构和直观的操作路径。包含在线问诊、预约挂号、健康档案、药品商城等模块，通过严谨的可用性测试确保老年用户也能轻松使用。",
+    "thumbnail": "/images/works/grid/work-uiux-02.jpg",
+    "images": [
+      "/images/works/grid/work-uiux-02.jpg"
+    ],
+    "tags": [
+      "医疗",
+      "UI",
+      "UX",
+      "Web"
+    ],
+    "isFeatured": false,
+    "likes": 112
+  },
+  {
+    "id": "work-uiux-03",
+    "title": "出行助手小程序",
+    "category": "UI/UX",
+    "year": 2023,
+    "client": "出行助手网络科技",
+    "description": "城市出行服务小程序，整合公交、地铁、共享单车一站式查询。",
+    "fullDescription": "设计城市出行服务小程序，整合公交实时查询、地铁线路规划、共享单车扫码、打车服务等功能。采用卡片式信息架构，确保用户在移动场景下快速获取关键信息。上线首月用户突破50万。",
+    "thumbnail": "/images/works/grid/work-uiux-03.jpg",
+    "images": [
+      "/images/works/grid/work-uiux-03.jpg"
+    ],
+    "tags": [
+      "小程序",
+      "UI",
+      "出行",
+      "移动端"
+    ],
+    "isFeatured": false,
+    "likes": 88
+  },
+  {
+    "id": "work-illustration-01",
+    "title": "山海经神话插画集",
+    "category": "插画",
+    "year": 2025,
+    "client": "个人项目",
+    "description": "以当代数字绘画重新诠释《山海经》经典神话形象，探索传统与现代的融合。",
+    "fullDescription": "个人创作项目，选取《山海经》中12个经典神话形象进行当代数字插画创作。运用Procreate和Photoshop，结合传统水墨笔触与数字光影效果，在保留古典神韵的同时赋予现代视觉冲击力。作品在ArtStation获得Featured推荐。",
+    "thumbnail": "/images/works/featured/work-illustration-01.jpg",
+    "images": [
+      "/images/works/featured/work-illustration-01.jpg",
+      "/images/works/detail/work-illustration-01-02.jpg"
+    ],
+    "tags": [
+      "插画",
+      "神话",
+      "数字绘画",
+      "传统"
+    ],
+    "isFeatured": true,
+    "likes": 342
+  },
+  {
+    "id": "work-illustration-02",
+    "title": "二十四节气绘本",
+    "category": "插画",
+    "year": 2024,
+    "client": "童趣出版社",
+    "description": "儿童绘本插画，用温暖细腻的笔触描绘二十四节气之美。",
+    "fullDescription": "为童趣出版社创作二十四节气主题儿童绘本。每幅插画对应一个节气，通过拟人化的自然元素和温馨的生活场景，向儿童传递传统文化知识。画风柔和细腻，色彩温暖明快，适合3-8岁亲子共读。",
+    "thumbnail": "/images/works/grid/work-illustration-02.jpg",
+    "images": [
+      "/images/works/grid/work-illustration-02.jpg"
+    ],
+    "tags": [
+      "绘本",
+      "儿童",
+      "节气",
+      "传统"
+    ],
+    "isFeatured": false,
+    "likes": 156
+  },
+  {
+    "id": "work-illustration-03",
+    "title": "城市印象系列海报",
+    "category": "插画",
+    "year": 2023,
+    "client": "城市文旅局",
+    "description": "为城市文旅宣传创作的系列插画海报，展现城市独特的人文风貌。",
+    "fullDescription": "受城市文旅局委托，创作城市印象系列宣传海报。选取城市地标建筑、特色美食、民俗文化等元素，采用扁平插画风格进行艺术化处理。系列共8张，用于地铁广告、旅游手册及社交媒体推广。",
+    "thumbnail": "/images/works/grid/work-illustration-03.jpg",
+    "images": [
+      "/images/works/grid/work-illustration-03.jpg"
+    ],
+    "tags": [
+      "海报",
+      "城市",
+      "文旅",
+      "扁平插画"
+    ],
+    "isFeatured": false,
+    "likes": 134
+  },
+  {
+    "id": "work-motion-01",
+    "title": "灵犀APP启动动画",
+    "category": "动态设计",
+    "year": 2025,
+    "client": "灵犀科技有限公司",
+    "description": "品牌APP开屏动画与过渡动效，打造沉浸式品牌第一印象。",
+    "fullDescription": "为灵犀科技旗下社交APP设计全套启动动画与页面过渡动效。开屏动画以品牌Logo为核心元素，通过粒子汇聚效果展现品牌理念。内页过渡采用流畅的共享元素动画，提升用户体验的连贯性与品质感。使用After Effects + Lottie输出。",
+    "thumbnail": "/images/works/featured/work-motion-01.jpg",
+    "images": [
+      "/images/works/featured/work-motion-01.jpg",
+      "/images/works/detail/work-motion-01-02.jpg"
+    ],
+    "tags": [
+      "动效",
+      "MG动画",
+      "APP",
+      "Lottie"
+    ],
+    "isFeatured": true,
+    "likes": 267
+  },
+  {
+    "id": "work-motion-02",
+    "title": "音乐节视觉系统",
+    "category": "动态设计",
+    "year": 2024,
+    "client": "草莓音乐节组委会",
+    "description": "大型户外音乐节全套动态视觉物料，从海报到舞台背景。",
+    "fullDescription": "为草莓音乐节设计全套动态视觉系统。包括动态主视觉海报、舞台LED背景动画、社交媒体动态贴纸、现场互动投影等。视觉风格融合电子音乐节奏感与年轻潮流文化，现场效果震撼，社交媒体传播数据超出预期300%。",
+    "thumbnail": "/images/works/grid/work-motion-02.jpg",
+    "images": [
+      "/images/works/grid/work-motion-02.jpg"
+    ],
+    "tags": [
+      "活动",
+      "视觉",
+      "动态",
+      "音乐"
+    ],
+    "isFeatured": true,
+    "likes": 198
+  },
+  {
+    "id": "work-motion-03",
+    "title": "产品发布会Keynote",
+    "category": "动态设计",
+    "year": 2023,
+    "client": "未来汽车科技",
+    "description": "新能源汽车发布会演示文稿设计，数据可视化与动效结合。",
+    "fullDescription": "为未来汽车科技新品发布会设计Keynote演示文稿。将复杂的技术参数转化为直观的动态信息图表，配合产品外观的3D旋转展示，打造科技感和未来感。发布会现场获得行业媒体高度评价。",
+    "thumbnail": "/images/works/grid/work-motion-03.jpg",
+    "images": [
+      "/images/works/grid/work-motion-03.jpg"
+    ],
+    "tags": [
+      "发布会",
+      "Keynote",
+      "数据可视化",
+      "汽车"
+    ],
+    "isFeatured": false,
+    "likes": 145
+  },
+  {
+    "id": "work-web-01",
+    "title": "建筑事务所官网",
+    "category": "UI/UX",
+    "year": 2024,
+    "client": "筑境建筑设计",
+    "description": "极简主义建筑事务所官网，以空间感传递设计哲学。",
+    "fullDescription": "为筑境建筑设计事务所打造官方网站。采用极简主义设计语言，大量留白与建筑摄影作品形成对话。网站包含项目展示、事务所介绍、团队介绍、新闻动态等模块，兼顾品牌形象与SEO优化。",
+    "thumbnail": "/images/works/grid/work-web-01.jpg",
+    "images": [
+      "/images/works/grid/work-web-01.jpg"
+    ],
+    "tags": [
+      "Web",
+      "建筑",
+      "极简",
+      "响应式"
+    ],
+    "isFeatured": false,
+    "likes": 92
+  },
+  {
+    "id": "work-package-01",
+    "title": "悦享食品包装系列",
+    "category": "品牌设计",
+    "year": 2023,
+    "client": "悦享食品集团",
+    "description": "高端零食品牌包装系列设计，兼顾货架吸引力与品牌一致性。",
+    "fullDescription": "为悦享食品集团设计高端零食产品线包装。针对年轻消费群体，采用大胆的色彩对比和趣味插画元素，在超市货架上形成强烈视觉冲击力。系列包含12个SKU，保持统一的品牌识别同时展现各产品特色。",
+    "thumbnail": "/images/works/grid/work-package-01.jpg",
+    "images": [
+      "/images/works/grid/work-package-01.jpg"
+    ],
+    "tags": [
+      "包装",
+      "食品",
+      "品牌",
+      "系列"
+    ],
+    "isFeatured": false,
+    "likes": 118
+  },
+  {
+    "id": "work-editorial-01",
+    "title": "设计杂志年度特刊",
+    "category": "插画",
+    "year": 2024,
+    "client": "设计杂志编辑部",
+    "description": "设计类杂志年度特刊整体装帧与内页插画设计。",
+    "fullDescription": "受邀为知名设计杂志年度特刊进行整体装帧设计。封面采用特殊工艺印刷，内页搭配原创概念插画，探讨设计与科技的边界。特刊限量发行5000册，在设计圈内引发广泛讨论。",
+    "thumbnail": "/images/works/grid/work-editorial-01.jpg",
+    "images": [
+      "/images/works/grid/work-editorial-01.jpg"
+    ],
+    "tags": [
+      "编辑设计",
+      "杂志",
+      "装帧",
+      "限量"
+    ],
+    "isFeatured": false,
+    "likes": 87
+  }
+]
