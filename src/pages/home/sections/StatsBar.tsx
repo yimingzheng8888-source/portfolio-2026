@@ -15,10 +15,10 @@ interface StatItem {
 }
 
 const stats: StatItem[] = [
-  { value: 10, suffix: '+', label: '年工作经验' },
-  { value: 6000, suffix: '+', label: '完成项目' },
-  { value: 700, suffix: '+', label: '合作客户' },
-  { value: 4, suffix: '', label: '设计奖项', decimals: 0 },
+  { value: 2, suffix: '/121', label: '专业排名' },
+  { value: 6, suffix: '+', label: '工程设计项目' },
+  { value: 4, suffix: '', label: '竞赛奖项' },
+  { value: 2, suffix: '', label: '实用新型专利', decimals: 0 },
 ];
 
 export const StatsBar: React.FC = () => {

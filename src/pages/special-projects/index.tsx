@@ -5,20 +5,21 @@ import { SectionTitle } from '@components/ui/SectionTitle';
 import { Badge } from '@components/ui/Badge';
 import { Button } from '@components/ui/Button';
 import { specialProjects } from '@data/special-projects';
-import { ArrowRight, FlaskConical, Heart, Leaf, Code2 } from 'lucide-react';
+import { ArrowRight, Waves, Ruler, Box, Cog } from 'lucide-react';
+import { siteConfig } from '@/config/site';
 
 const categoryIcons: Record<string, React.ReactNode> = {
-  '公益设计': <Heart className="w-5 h-5" />,
-  '个人实验': <FlaskConical className="w-5 h-5" />,
-  '品牌重塑': <Leaf className="w-5 h-5" />,
-  '开源项目': <Code2 className="w-5 h-5" />,
+  '结构设计': <Ruler className="w-5 h-5" />,
+  '游艇设计': <Waves className="w-5 h-5" />,
+  '船型性能': <Cog className="w-5 h-5" />,
+  '生产设计': <Box className="w-5 h-5" />,
 };
 
 const categoryColors: Record<string, string> = {
-  '公益设计': 'bg-rose-50 text-rose-700 border-rose-200',
-  '个人实验': 'bg-violet-50 text-violet-700 border-violet-200',
-  '品牌重塑': 'bg-emerald-50 text-emerald-700 border-emerald-200',
-  '开源项目': 'bg-sky-50 text-sky-700 border-sky-200',
+  '结构设计': 'bg-slate-50 text-slate-700 border-slate-200',
+  '游艇设计': 'bg-sky-50 text-sky-700 border-sky-200',
+  '船型性能': 'bg-blue-50 text-blue-700 border-blue-200',
+  '生产设计': 'bg-amber-50 text-amber-700 border-amber-200',
 };
 
 export const SpecialProjectsListPage: React.FC = () => {
@@ -29,14 +30,14 @@ export const SpecialProjectsListPage: React.FC = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTitle
             title="特别项目"
-            subtitle="深度案例研究 — 从问题发现到设计落地的完整过程记录"
+            subtitle="深度案例研究 — 从任务定义到计算、建模与交付的完整记录"
             align="center"
             showLine
           />
           <FadeIn direction="up" delay={0.2}>
             <p className="text-center text-gray-600 max-w-2xl mx-auto mt-6 leading-relaxed">
-              与商业作品不同，特别项目更强调设计过程、研究方法与实验性探索。
-              这里记录了我对设计边界的好奇与突破，以及用设计创造社会价值的尝试。
+              这里集中展示船体结构、船型性能与游艇造型项目。
+              当前图片位置均已保留，可在整理好项目文件后按说明直接替换。
             </p>
           </FadeIn>
         </div>
@@ -56,6 +57,13 @@ export const SpecialProjectsListPage: React.FC = () => {
                         <div className="absolute inset-0 flex items-center justify-center">
                           <span className="text-gray-500 text-sm">项目封面占位</span>
                         </div>
+                        {!siteConfig.usePlaceholderImages && (
+                          <img
+                            src={`${import.meta.env.BASE_URL}${project.cover.replace(/^\//, '')}`}
+                            alt={project.title}
+                            className="absolute inset-0 w-full h-full object-cover"
+                          />
+                        )}
                         {/* 悬停遮罩 */}
                         <div className="absolute inset-0 bg-blue-900/0 group-hover:bg-blue-900/40 transition-all duration-500 flex items-center justify-center">
                           <span className="opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-500 text-white font-semibold flex items-center gap-2">
@@ -124,10 +132,10 @@ export const SpecialProjectsListPage: React.FC = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <FadeIn direction="up" delay={0}>
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-              对我的商业项目感兴趣？
+              想了解更多工程与设计项目？
             </h2>
             <p className="text-gray-600 mb-8 max-w-xl mx-auto">
-              特别项目展示了设计思维与实验精神，商业作品则体现了落地能力与专业水准。
+              作品集页面汇总了课程设计、竞赛项目与工程实践，可按类别筛选查看。
             </p>
             <Button variant="primary" size="lg" href="/portfolio">
               查看完整作品集

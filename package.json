@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "open": "vite --host 127.0.0.1 --open /portfolio-2026/",
     "build": "vite build",
     "deploy": "npm run build && gh-pages -d dist",
     "preview": "vite preview",

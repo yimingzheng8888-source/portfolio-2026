@@ -15,9 +15,10 @@ import {
 } from '@utils/dataHelpers';
 
 import type { Work } from '@types/index';
+import { siteConfig } from '@/config/site';
 
 // 分类配置（包含"全部"选项）
-const CATEGORIES = ['全部', '品牌设计', 'UI/UX', '插画', '动态设计'];
+const CATEGORIES = ['全部', '船体与结构', '船型与性能', '游艇设计', '工程实践'];
 
 // 作品卡片组件
 interface WorkCardProps {
@@ -43,6 +44,13 @@ const WorkCard: React.FC<WorkCardProps> = ({ work, index }) => {
           <div className="absolute inset-0 flex items-center justify-center bg-[#cccccc]">
             <span className="text-sm text-[#999]">图片占位</span>
           </div>
+          {!siteConfig.usePlaceholderImages && (
+            <img
+              src={`${import.meta.env.BASE_URL}${work.thumbnail.replace(/^\//, '')}`}
+              alt={work.title}
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+          )}
 
           {/* 悬停遮罩 */}
           <AnimatePresence>

@@ -5,6 +5,7 @@ import { Badge } from '@components/ui/Badge';
 import { Button } from '@components/ui/Button';
 import { specialProjects, getSpecialProjectById, getAdjacentProjects } from '@data/special-projects';
 import { ArrowLeft, ArrowRight, Calendar, User, Wrench, ChevronLeft, ChevronRight, X, ZoomIn } from 'lucide-react';
+import { siteConfig } from '@/config/site';
 
 interface LightboxState {
   isOpen: boolean;
@@ -171,6 +172,13 @@ export const SpecialProjectDetailPage: React.FC = () => {
               <div className="absolute inset-0 flex items-center justify-center">
                 <span className="text-gray-500">项目主图占位</span>
               </div>
+              {!siteConfig.usePlaceholderImages && (
+                <img
+                  src={`${import.meta.env.BASE_URL}${project.cover.replace(/^\//, '')}`}
+                  alt={project.title}
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+              )}
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300 flex items-center justify-center">
                 <ZoomIn className="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" />
               </div>
@@ -249,6 +257,13 @@ export const SpecialProjectDetailPage: React.FC = () => {
                       <div className="absolute inset-0 flex items-center justify-center">
                         <span className="text-gray-500 text-sm">展示图 {idx + 1}</span>
                       </div>
+                      {!siteConfig.usePlaceholderImages && (
+                        <img
+                          src={`${import.meta.env.BASE_URL}${img.replace(/^\//, '')}`}
+                          alt={`${project.title} 成果图 ${idx + 1}`}
+                          className="absolute inset-0 w-full h-full object-cover"
+                        />
+                      )}
                       <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300 flex items-center justify-center">
                         <ZoomIn className="w-8 h-8 text-white opacity-0 group-hover:opacity-100 transition-opacity" />
                       </div>
@@ -274,6 +289,13 @@ export const SpecialProjectDetailPage: React.FC = () => {
                       <div className="absolute inset-0 flex items-center justify-center">
                         <span className="text-gray-500 text-sm">过程图 {idx + 1}</span>
                       </div>
+                      {!siteConfig.usePlaceholderImages && (
+                        <img
+                          src={`${import.meta.env.BASE_URL}${img.replace(/^\//, '')}`}
+                          alt={`${project.title} 过程图 ${idx + 1}`}
+                          className="absolute inset-0 w-full h-full object-cover"
+                        />
+                      )}
                       <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300 flex items-center justify-center">
                         <ZoomIn className="w-8 h-8 text-white opacity-0 group-hover:opacity-100 transition-opacity" />
                       </div>
@@ -391,12 +413,19 @@ export const SpecialProjectDetailPage: React.FC = () => {
 
           {/* 图片 */}
           <div
-            className="max-w-[90vw] max-h-[85vh] aspect-[16/9] bg-[#cccccc] rounded-lg flex items-center justify-center"
+            className="relative w-[90vw] max-w-6xl max-h-[85vh] aspect-[16/9] bg-[#cccccc] rounded-lg flex items-center justify-center overflow-hidden"
             onClick={(e) => e.stopPropagation()}
           >
             <span className="text-gray-500 text-lg">
               图片占位 {lightbox.currentIndex + 1}
             </span>
+            {!siteConfig.usePlaceholderImages && (
+              <img
+                src={`${import.meta.env.BASE_URL}${lightbox.images[lightbox.currentIndex].replace(/^\//, '')}`}
+                alt={`${project.title} 大图 ${lightbox.currentIndex + 1}`}
+                className="absolute inset-0 w-full h-full object-contain bg-black"
+              />
+            )}
           </div>
 
           {/* 下一张 */}

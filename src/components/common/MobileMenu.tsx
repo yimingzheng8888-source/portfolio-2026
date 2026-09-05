@@ -85,7 +85,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({
               {/* 底部信息 */}
               <div className="py-6 border-t border-gray-100">
                 <p className="text-sm text-text-muted">
-                  © 2026 PORTFOLIO
+                  © 2026 郑一鸣 · PORTFOLIO
                 </p>
               </div>
             </div>

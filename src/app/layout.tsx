@@ -32,11 +32,11 @@ export const Layout: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* 品牌信息 */}
             <div>
-              <h3 className="text-xl font-bold mb-4 tracking-wider">PORTFOLIO</h3>
+              <h3 className="text-xl font-bold mb-4 tracking-wider">郑一鸣 · PORTFOLIO</h3>
               <p className="text-text-muted text-sm leading-relaxed">
-                专注于创造有影响力的设计作品，
+                聚焦船舶工程与船舶设计，
                 <br />
-                用视觉语言讲述品牌故事。
+                用计算验证判断，用设计表达方案。
               </p>
             </div>
 
@@ -71,9 +71,9 @@ export const Layout: React.FC = () => {
             <div>
               <h4 className="font-semibold mb-4">联系方式</h4>
               <ul className="space-y-2 text-sm text-text-muted">
-                <li>邮箱: hello@portfolio.design</li>
-                <li>电话: +86 138 0000 0000</li>
-                <li>地址: 中国 · 上海</li>
+                <li>邮箱: 2849597574@qq.com</li>
+                <li>方向: 船舶设计 / 技术 / 质量 / 验船</li>
+                <li>院校: 广东海洋大学</li>
               </ul>
             </div>
           </div>
@@ -81,7 +81,7 @@ export const Layout: React.FC = () => {
           {/* 版权信息 */}
           <div className="mt-12 pt-8 border-t border-white/10 text-center">
             <p className="text-text-muted text-sm">
-              © 2026 PORTFOLIO. All rights reserved.
+              © 2026 郑一鸣. Based on portfolio-2026.
             </p>
           </div>
         </div>

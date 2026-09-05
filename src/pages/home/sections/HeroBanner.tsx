@@ -9,10 +9,10 @@ import { Typewriter } from '@components/animation/Typewriter';
 import { GlassCard } from '@components/ui/GlassCard';
 
 const slogans = [
-  'hello 大家好，本网站将展示我的一部分',
-  '我的能力与创意不限于此',
-  '希望我的作品集能获得好评！',
-  '用设计连接品牌与用户',
+  '你好，我是郑一鸣',
+  '用工程计算验证设计判断',
+  '用三维表达呈现船舶方案',
+  '期待在船舶行业持续成长',
 ];
 
 export const HeroBanner: React.FC = () => {
@@ -73,7 +73,7 @@ export const HeroBanner: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-accent text-sm md:text-base tracking-[0.3em] uppercase mb-6"
         >
-          资深设计师 · 10年经验
+          船舶与海洋工程 · 2027 届
         </motion.p>
 
         {/* 大标题 - 打字机 */}
@@ -101,7 +101,7 @@ export const HeroBanner: React.FC = () => {
           transition={{ duration: 0.8, delay: 1.2 }}
           className="text-white/70 text-base md:text-lg max-w-2xl mx-auto mb-12 leading-relaxed"
         >
-          专注于品牌视觉、界面交互与动态设计，用创意为每一个项目注入独特灵魂
+          聚焦船体结构、船型性能与游艇造型，用严谨计算和清晰表达推动方案落地
         </motion.p>
 
         {/* 毛玻璃搜索/筛选栏 */}
@@ -115,17 +115,17 @@ export const HeroBanner: React.FC = () => {
             <div className="flex flex-col md:flex-row items-center gap-4">
               <div className="flex-1 text-left">
                 <p className="text-white/50 text-xs mb-1">服务类型</p>
-                <p className="text-white font-medium">品牌设计 / UI设计 / 动态设计</p>
+                <p className="text-white font-medium">船体结构 / 船型性能 / 游艇设计</p>
               </div>
               <div className="hidden md:block w-px h-10 bg-white/20" />
               <div className="flex-1 text-left">
-                <p className="text-white/50 text-xs mb-1">合作模式</p>
-                <p className="text-white font-medium">项目制 / 长期合作</p>
+                <p className="text-white/50 text-xs mb-1">求职方向</p>
+                <p className="text-white font-medium">设计 / 技术 / 质量 / 验船</p>
               </div>
               <div className="hidden md:block w-px h-10 bg-white/20" />
               <div className="flex-1 text-left">
-                <p className="text-white/50 text-xs mb-1">服务区域</p>
-                <p className="text-white font-medium">全国 / 远程协作</p>
+                <p className="text-white/50 text-xs mb-1">毕业时间</p>
+                <p className="text-white font-medium">2027 年 6 月</p>
               </div>
             </div>
           </GlassCard>

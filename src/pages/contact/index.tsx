@@ -2,40 +2,37 @@ import React from 'react';
 import { FadeIn } from '@components/animation/FadeIn';
 import { SectionTitle } from '@components/ui/SectionTitle';
 import { ContactForm } from '@components/contact/ContactForm';
-import { Mail, Phone, MapPin, Clock, Github, Twitter, Dribbble, Linkedin } from 'lucide-react';
+import { Mail, Phone, MapPin, Clock } from 'lucide-react';
 
 const contactInfo = [
   {
     icon: <Mail className="w-5 h-5" />,
     label: '邮箱',
-    value: 'hello@designer.name',
-    href: 'mailto:hello@designer.name',
+    value: '2849597574@qq.com',
+    href: 'mailto:2849597574@qq.com',
   },
   {
     icon: <Phone className="w-5 h-5" />,
     label: '电话',
-    value: '+86 138 0000 0000',
-    href: 'tel:+8613800000000',
+    value: '193 9003 7479',
+    href: 'tel:+8619390037479',
   },
   {
     icon: <MapPin className="w-5 h-5" />,
     label: '地址',
-    value: '北京市朝阳区 · 设计产业园 A 座',
+    value: '广东海洋大学',
     href: null,
   },
   {
     icon: <Clock className="w-5 h-5" />,
-    label: '工作时间',
-    value: '周一至周五 10:00 - 19:00',
+    label: '毕业时间',
+    value: '2027 年 6 月',
     href: null,
   },
 ];
 
 const socialLinks = [
-  { icon: <Github className="w-5 h-5" />, label: 'GitHub', href: 'https://github.com' },
-  { icon: <Twitter className="w-5 h-5" />, label: 'Twitter', href: 'https://twitter.com' },
-  { icon: <Dribbble className="w-5 h-5" />, label: 'Dribbble', href: 'https://dribbble.com' },
-  { icon: <Linkedin className="w-5 h-5" />, label: 'LinkedIn', href: 'https://linkedin.com' },
+  { icon: <Mail className="w-5 h-5" />, label: '电子邮箱', href: 'mailto:2849597574@qq.com' },
 ];
 
 export const ContactPage: React.FC = () => {
@@ -46,7 +43,7 @@ export const ContactPage: React.FC = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTitle
             title="联系我"
-            subtitle="有项目合作、工作机会或只是想聊聊设计？随时欢迎交流"
+            subtitle="如有船舶设计、技术、质量或验船相关机会，欢迎联系"
             align="center"
             showLine
           />
@@ -90,7 +87,7 @@ export const ContactPage: React.FC = () => {
 
                   {/* 社交媒体 */}
                   <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100">
-                    <h3 className="text-xl font-bold text-gray-900 mb-6">社交媒体</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-6">在线联系</h3>
                     <div className="grid grid-cols-2 gap-3">
                       {socialLinks.map((link) => (
                         <a
@@ -111,10 +108,10 @@ export const ContactPage: React.FC = () => {
 
                   {/* 快速回复承诺 */}
                   <div className="bg-blue-600 rounded-2xl p-6 md:p-8 text-white">
-                    <h3 className="text-xl font-bold mb-3">快速响应承诺</h3>
+                    <h3 className="text-xl font-bold mb-3">求职方向</h3>
                     <p className="text-blue-100 leading-relaxed">
-                      我重视每一次交流。通常情况下，我会在 24 小时内回复您的消息。
-                      如果是紧急项目需求，请直接通过电话联系。
+                      船舶设计、技术与质量、验船及船东技术相关岗位。
+                      我会认真阅读每一条工作机会和项目交流信息。
                     </p>
                   </div>
                 </div>

@@ -1,92 +1,42 @@
 [
   {
-    "id": "special-01",
-    "title": "城市流浪动物救助品牌",
-    "category": "公益设计",
-    "description": "为本地流浪动物救助站免费设计的品牌视觉系统，提升公众关注度与领养率。",
-    "cover": "/images/special-projects/special-01.jpg",
-    "tags": [
-      "公益",
-      "品牌",
-      "VI",
-      "社会责任"
-    ],
+    "id": "bulk-carrier-strength",
+    "title": "190.9 m 散货船船体强度与结构设计",
+    "category": "结构设计",
+    "description": "规范计算、构件设计与总纵强度校核。",
+    "cover": "/images/special-projects/bulk-carrier-strength-cover.jpg",
+    "tags": ["船体结构", "总纵强度", "规范计算"],
+    "year": 2026,
+    "link": "/special-projects/bulk-carrier-strength"
+  },
+  {
+    "id": "drift-yacht",
+    "title": "DRIFT 游艇造型设计",
+    "category": "游艇设计",
+    "description": "海南国际游艇设计大赛全国优秀奖作品。",
+    "cover": "/images/special-projects/drift-yacht-cover.jpg",
+    "tags": ["游艇设计", "Rhino", "Unreal Engine"],
+    "year": 2026,
+    "link": "/special-projects/drift-yacht"
+  },
+  {
+    "id": "blue-ring-yacht",
+    "title": "蔚蓝之环邮轮游艇创新设计",
+    "category": "游艇设计",
+    "description": "大学生邮轮游艇创新创意设计大赛全国三等奖作品。",
+    "cover": "/images/special-projects/blue-ring-yacht-cover.jpg",
+    "tags": ["概念设计", "Rhino", "KeyShot"],
     "year": 2024,
-    "link": "https://github.com/example/animal-rescue-brand"
+    "link": "/special-projects/blue-ring-yacht"
   },
   {
-    "id": "special-02",
-    "title": "个人字体设计实验",
-    "category": "个人实验",
-    "description": "历时8个月完成的一套中文创意字体，探索传统书法与现代几何的融合边界。",
-    "cover": "/images/special-projects/special-02.jpg",
-    "tags": [
-      "字体",
-      "实验",
-      "创意",
-      "书法"
-    ],
-    "year": 2024,
-    "link": "https://github.com/example/chinese-font-experiment"
-  },
-  {
-    "id": "special-03",
-    "title": "开源设计系统组件库",
-    "category": "开源项目",
-    "description": "基于React和Tailwind的开源UI组件库，已在GitHub获得800+ Stars，被多个项目采用。",
-    "cover": "/images/special-projects/special-03.jpg",
-    "tags": [
-      "开源",
-      "前端",
-      "组件库",
-      "React"
-    ],
+    "id": "maxsurf-analysis",
+    "title": "Maxsurf 船型建模与性能分析",
+    "category": "船型性能",
+    "description": "供应船与货船的建模、静水力、阻力和耐波性分析。",
+    "cover": "/images/special-projects/maxsurf-analysis-cover.jpg",
+    "tags": ["Maxsurf", "静水力", "阻力", "耐波性"],
     "year": 2025,
-    "link": "https://github.com/example/design-system"
-  },
-  {
-    "id": "special-04",
-    "title": "老字号品牌焕新计划",
-    "category": "品牌重塑",
-    "description": "为百年老字号进行现代化品牌重塑，保留传统精髓的同时吸引年轻消费群体。",
-    "cover": "/images/special-projects/special-04.jpg",
-    "tags": [
-      "品牌重塑",
-      "传统",
-      "现代",
-      "老字号"
-    ],
-    "year": 2023,
-    "link": "https://github.com/example/heritage-brand-revive"
-  },
-  {
-    "id": "special-05",
-    "title": "AI辅助设计工具探索",
-    "category": "个人实验",
-    "description": "探索AI工具在设计流程中的应用边界，建立人机协作的高效工作流。",
-    "cover": "/images/special-projects/special-05.jpg",
-    "tags": [
-      "AI",
-      "工具",
-      "实验",
-      "效率"
-    ],
-    "year": 2025,
-    "link": "https://github.com/example/ai-design-workflow"
-  },
-  {
-    "id": "special-06",
-    "title": "乡村教育公益视觉",
-    "category": "公益设计",
-    "description": "为乡村教育公益组织设计的全套视觉物料，助力教育公平事业。",
-    "cover": "/images/special-projects/special-06.jpg",
-    "tags": [
-      "公益",
-      "教育",
-      "乡村",
-      "视觉"
-    ],
-    "year": 2023,
-    "link": "https://github.com/example/rural-education-design"
+    "link": "/special-projects/maxsurf-analysis"
   }
 ]

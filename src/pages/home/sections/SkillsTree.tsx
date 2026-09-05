@@ -9,6 +9,7 @@ import { FadeIn } from '@components/animation/FadeIn';
 import { SectionTitle } from '@components/ui/SectionTitle';
 import skillsData from '@data/skills.json';
 import type { Skill } from '@types';
+import { siteConfig } from '@/config/site';
 
 const iconMap: Record<string, React.ElementType> = {
   Palette,
@@ -112,8 +113,15 @@ export const SkillsTree: React.FC = () => {
                   transition={{ duration: 0.4 }}
                   className="bg-bg-secondary rounded-2xl overflow-hidden"
                 >
-                  {/* 图片占位 */}
-                  <div className="aspect-[16/10] img-placeholder" />
+                  <div className="relative aspect-[16/10] img-placeholder overflow-hidden">
+                    {!siteConfig.usePlaceholderImages && (
+                      <img
+                        src={`${import.meta.env.BASE_URL}${currentSkill.image.replace(/^\//, '')}`}
+                        alt={`${currentSkill.label}示意图`}
+                        className="absolute inset-0 w-full h-full object-cover"
+                      />
+                    )}
+                  </div>
 
                   <div className="p-6 md:p-8">
                     <h3 className="text-2xl font-bold text-primary mb-4">

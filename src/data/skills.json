@@ -1,123 +1,82 @@
 [
   {
-    "id": "skill-brand",
-    "label": "品牌设计",
-    "shortDesc": "品牌策略与视觉识别系统",
-    "fullDesc": "从品牌定位到视觉落地的全链路设计能力，包括Logo设计、VI系统、品牌手册、包装设计等。擅长将品牌理念转化为具有商业价值的视觉语言。",
-    "tools": [
-      "Adobe Illustrator",
-      "Adobe Photoshop",
-      "Figma",
-      "Sketch"
-    ],
-    "image": "/images/skills/skill-brand.jpg",
-    "proficiency": 95,
-    "category": "设计类"
-  },
-  {
-    "id": "skill-uiux",
-    "label": "UI/UX 设计",
-    "shortDesc": "用户界面与体验设计",
-    "fullDesc": "以用户为中心的产品设计方法，涵盖用户研究、信息架构、交互设计、视觉设计、可用性测试等全流程。注重数据驱动的设计决策。",
-    "tools": [
-      "Figma",
-      "Sketch",
-      "Principle",
-      "Axure",
-      "Maze"
-    ],
-    "image": "/images/skills/skill-uiux.jpg",
-    "proficiency": 92,
-    "category": "设计类"
-  },
-  {
-    "id": "skill-illustration",
-    "label": "商业插画",
-    "shortDesc": "数字绘画与视觉叙事",
-    "fullDesc": "擅长多种插画风格，包括扁平插画、肌理插画、国潮风、儿童绘本等。能够根据项目需求快速切换风格，为品牌和产品注入独特的视觉个性。",
-    "tools": [
-      "Procreate",
-      "Adobe Photoshop",
-      "Adobe Illustrator",
-      "Clip Studio Paint"
-    ],
-    "image": "/images/skills/skill-illustration.jpg",
+    "id": "skill-structure",
+    "label": "船体结构设计",
+    "shortDesc": "规范计算、构件设计与总纵强度",
+    "fullDesc": "能够依据船舶建造规范完成构件设计、载荷计算、剖面特性计算与总纵强度校核，并清晰整理计算过程和结果。",
+    "tools": ["AutoCAD", "Excel", "船舶建造规范"],
+    "image": "/images/skills/skill-structure.jpg",
     "proficiency": 88,
-    "category": "设计类"
+    "category": "工程设计"
   },
   {
-    "id": "skill-motion",
-    "label": "动态设计",
-    "shortDesc": "MG动画与交互动效",
-    "fullDesc": "将静态设计赋予生命力的能力，包括Logo动画、UI动效、MG动画、动态海报等。熟悉Lottie、After Effects等工具，能够输出高性能的动画资源。",
-    "tools": [
-      "After Effects",
-      "Principle",
-      "Lottie",
-      "Cinema 4D"
-    ],
-    "image": "/images/skills/skill-motion.jpg",
-    "proficiency": 85,
-    "category": "设计类"
+    "id": "skill-hydrostatics",
+    "label": "静水力与稳性",
+    "shortDesc": "船体曲面、静水力曲线与稳性校核",
+    "fullDesc": "能够从型值与线型出发建立船体曲面，完成静水力、浮态平衡、邦戎曲线、稳性横截曲线与典型装载工况校核。",
+    "tools": ["COMPASS", "Maxsurf", "AutoCAD", "Excel"],
+    "image": "/images/skills/skill-hydrostatics.jpg",
+    "proficiency": 86,
+    "category": "工程设计"
   },
   {
-    "id": "skill-frontend",
-    "label": "前端开发",
-    "shortDesc": "React / Vue / 响应式开发",
-    "fullDesc": "具备将设计稿高精度还原为代码的能力，熟悉React、Vue等现代前端框架，了解CSS动画、SVG动画等技术。能够独立搭建作品集网站和小型项目。",
-    "tools": [
-      "React",
-      "TypeScript",
-      "Tailwind CSS",
-      "Vite",
-      "Git"
-    ],
-    "image": "/images/skills/skill-frontend.jpg",
-    "proficiency": 78,
-    "category": "工具类"
+    "id": "skill-performance",
+    "label": "船型性能分析",
+    "shortDesc": "阻力、推进与耐波性分析",
+    "fullDesc": "具备船型建模和基础性能分析能力，可开展阻力预报、推进匹配、初稳性和耐波性等课程设计工作。",
+    "tools": ["Maxsurf", "STAR-CCM+", "Excel"],
+    "image": "/images/skills/skill-performance.jpg",
+    "proficiency": 80,
+    "category": "分析仿真"
+  },
+  {
+    "id": "skill-production",
+    "label": "船舶生产设计",
+    "shortDesc": "分段三维建模与构件表达",
+    "fullDesc": "学习并使用沪东 SPD 完成分段生产设计练习，覆盖外板、甲板、纵骨、舱壁、平台、肋板与扶强材等构件。",
+    "tools": ["沪东 SPD", "AutoCAD"],
+    "image": "/images/skills/skill-production.jpg",
+    "proficiency": 76,
+    "category": "工程设计"
   },
   {
     "id": "skill-3d",
-    "label": "3D设计",
-    "shortDesc": "三维建模与渲染",
-    "fullDesc": "掌握Blender和C4D的三维设计能力，能够进行产品建模、场景搭建、材质渲染等。常用于包装设计预览、产品展示和概念场景创作。",
-    "tools": [
-      "Blender",
-      "Cinema 4D",
-      "Octane Render"
-    ],
+    "label": "三维建模",
+    "shortDesc": "船型与游艇造型建模",
+    "fullDesc": "能够使用 Rhino、3ds Max 与 Maxsurf 完成船型或游艇造型建模、曲面修顺和方案迭代。",
+    "tools": ["Rhino", "3ds Max", "Maxsurf"],
     "image": "/images/skills/skill-3d.jpg",
-    "proficiency": 72,
-    "category": "工具类"
+    "proficiency": 87,
+    "category": "三维表达"
   },
   {
-    "id": "skill-communication",
-    "label": "沟通协作",
-    "shortDesc": "跨团队沟通与项目管理",
-    "fullDesc": "具备优秀的沟通能力和项目管理意识，能够准确理解客户需求，高效推进项目进度。熟悉敏捷开发流程，善于协调设计师、开发、运营等多方资源。",
-    "tools": [
-      "Notion",
-      "飞书",
-      "Jira",
-      "Miro"
-    ],
-    "image": "/images/skills/skill-communication.jpg",
+    "id": "skill-render",
+    "label": "渲染与视觉表达",
+    "shortDesc": "效果图、展板与设计说明",
+    "fullDesc": "能够完成竞赛项目的渲染、版式设计与说明书制作，把工程与造型方案转化为清晰、完整的视觉交付。",
+    "tools": ["KeyShot", "Unreal Engine", "Illustrator"],
+    "image": "/images/skills/skill-render.jpg",
+    "proficiency": 85,
+    "category": "三维表达"
+  },
+  {
+    "id": "skill-analysis",
+    "label": "有限元与流体仿真",
+    "shortDesc": "CAE 基础与课程实践",
+    "fullDesc": "具备 STAR-CCM+ 课程学习与 Abaqus/CAE 基础，可理解网格、边界条件、载荷和结果后处理的基本流程。",
+    "tools": ["STAR-CCM+", "Abaqus/CAE"],
+    "image": "/images/skills/skill-analysis.jpg",
+    "proficiency": 68,
+    "category": "分析仿真"
+  },
+  {
+    "id": "skill-leadership",
+    "label": "组织与项目协作",
+    "shortDesc": "团队管理、任务拆解与交付推进",
+    "fullDesc": "曾面向约 60 名成员开展组织管理，并担任多项竞赛团队负责人，能够组织训练、拆解任务、跟踪进度并推动完整交付。",
+    "tools": ["项目管理", "团队协作", "Office", "Excel"],
+    "image": "/images/skills/skill-leadership.jpg",
     "proficiency": 90,
-    "category": "软技能"
-  },
-  {
-    "id": "skill-strategy",
-    "label": "设计策略",
-    "shortDesc": "商业思维与品牌策略",
-    "fullDesc": "不仅关注视觉表现，更关注设计背后的商业逻辑。能够从品牌策略、市场定位、用户洞察等维度思考设计问题，提供具有商业价值的创意解决方案。",
-    "tools": [
-      "市场调研",
-      "用户画像",
-      "竞品分析",
-      "品牌定位"
-    ],
-    "image": "/images/skills/skill-strategy.jpg",
-    "proficiency": 82,
     "category": "软技能"
   }
 ]

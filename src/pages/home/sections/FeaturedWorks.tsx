@@ -11,6 +11,7 @@ import { SectionTitle } from '@components/ui/SectionTitle';
 import { Badge } from '@components/ui/Badge';
 import worksData from '@data/works.json';
 import type { Work } from '@types';
+import { siteConfig } from '@/config/site';
 
 const featuredWorks: Work[] = worksData.filter((w: Work) => w.isFeatured).slice(0, 6);
 
@@ -53,6 +54,13 @@ export const FeaturedWorks: React.FC = () => {
                 >
                   {/* 图片区域 */}
                   <div className="relative aspect-[4/3] overflow-hidden img-placeholder">
+                    {!siteConfig.usePlaceholderImages && (
+                      <img
+                        src={`${import.meta.env.BASE_URL}${work.thumbnail.replace(/^\//, '')}`}
+                        alt={work.title}
+                        className="absolute inset-0 w-full h-full object-cover"
+                      />
+                    )}
                     {/* 悬停叠加层 */}
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-400 flex items-center justify-center">
                       {/* 爱心按钮 */}

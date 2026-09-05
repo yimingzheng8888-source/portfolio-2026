@@ -4,11 +4,12 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronLeft, ChevronRight, Star, Quote } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Award, Quote } from 'lucide-react';
 import { FadeIn } from '@components/animation/FadeIn';
 import { SectionTitle } from '@components/ui/SectionTitle';
 import testimonialsData from '@data/testimonials.json';
 import type { Testimonial } from '@types';
+import { siteConfig } from '@/config/site';
 
 const testimonials: Testimonial[] = testimonialsData;
 
@@ -65,8 +66,8 @@ export const Testimonials: React.FC = () => {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <FadeIn>
           <SectionTitle
-            title="客户评价"
-            subtitle="Testimonials"
+            title="成果记录"
+            subtitle="Milestones"
             light
             className="mb-16"
           />
@@ -98,8 +99,15 @@ export const Testimonials: React.FC = () => {
                   </p>
 
                   <div className="flex items-center gap-4">
-                    {/* 头像占位 */}
-                    <div className="w-14 h-14 rounded-full img-placeholder flex-shrink-0" />
+                    <div className="relative w-14 h-14 rounded-full img-placeholder flex-shrink-0 overflow-hidden">
+                      {!siteConfig.usePlaceholderImages && (
+                        <img
+                          src={`${import.meta.env.BASE_URL}${current.avatar.replace(/^\//, '')}`}
+                          alt=""
+                          className="absolute inset-0 w-full h-full object-cover"
+                        />
+                      )}
+                    </div>
 
                     <div className="flex-1">
                       <h4 className="text-white font-bold">{current.name}</h4>
@@ -108,14 +116,9 @@ export const Testimonials: React.FC = () => {
                       </p>
                     </div>
 
-                    <div className="flex items-center gap-1">
-                      {Array.from({ length: 5 }).map((_, i) => (
-                        <Star
-                          key={i}
-                          size={16}
-                          className={i < current.rating ? 'text-accent fill-accent' : 'text-white/20'}
-                        />
-                      ))}
+                    <div className="flex items-center gap-2 text-accent text-sm">
+                      <Award size={18} />
+                      <span>已核验成果</span>
                     </div>
                   </div>
 
@@ -134,7 +137,7 @@ export const Testimonials: React.FC = () => {
             <button
               onClick={prev}
               className="p-3 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors"
-              aria-label="上一条评价"
+              aria-label="上一条成果"
             >
               <ChevronLeft size={20} />
             </button>
@@ -152,7 +155,7 @@ export const Testimonials: React.FC = () => {
                       : 'w-2 bg-white/30 hover:bg-white/50'
                     }
                   `}
-                  aria-label={`跳转到第${index + 1}条评价`}
+                  aria-label={`跳转到第${index + 1}条成果`}
                 />
               ))}
             </div>
@@ -160,7 +163,7 @@ export const Testimonials: React.FC = () => {
             <button
               onClick={next}
               className="p-3 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors"
-              aria-label="下一条评价"
+              aria-label="下一条成果"
             >
               <ChevronRight size={20} />
             </button>

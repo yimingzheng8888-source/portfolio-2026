@@ -7,6 +7,7 @@ import { Button } from '@components/ui/Button';
 import { Timeline } from '@components/timeline/Timeline';
 import { experiences, educations, skillTags, stats } from '@data/about';
 import { Briefcase, GraduationCap, Award, Download } from 'lucide-react';
+import { siteConfig } from '@/config/site';
 
 export const AboutPage: React.FC = () => {
   const experienceItems = experiences.map((exp) => ({
@@ -26,9 +27,9 @@ export const AboutPage: React.FC = () => {
   }));
 
   const skillCategories = {
-    design: { label: '设计工具', color: 'primary' as const },
-    dev: { label: '前端开发', color: 'secondary' as const },
-    tool: { label: '效率工具', color: 'accent' as const },
+    design: { label: '船舶工程工具', color: 'primary' as const },
+    dev: { label: '三维与视觉表达', color: 'secondary' as const },
+    tool: { label: '分析与数据工具', color: 'accent' as const },
   };
 
   return (
@@ -40,11 +41,18 @@ export const AboutPage: React.FC = () => {
             {/* 左侧照片 */}
             <FadeIn direction="up" delay={0} className="lg:col-span-4 flex justify-center">
               <div className="relative">
-                <div className="w-64 h-64 md:w-72 md:h-72 rounded-2xl overflow-hidden shadow-xl bg-[#cccccc] flex items-center justify-center">
+                <div className="relative w-64 h-64 md:w-72 md:h-72 rounded-2xl overflow-hidden shadow-xl bg-[#cccccc] flex items-center justify-center">
                   <span className="text-gray-500 text-sm">个人照片占位</span>
+                  {!siteConfig.usePlaceholderImages && (
+                    <img
+                      src={`${import.meta.env.BASE_URL}images/profile/profile.jpg`}
+                      alt="郑一鸣"
+                      className="absolute inset-0 w-full h-full object-cover"
+                    />
+                  )}
                 </div>
                 <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-neutral-900 rounded-2xl flex items-center justify-center shadow-lg">
-                  <span className="text-white text-3xl font-bold">10+</span>
+                  <span className="text-white text-3xl font-bold">2027</span>
                 </div>
               </div>
             </FadeIn>
@@ -56,32 +64,30 @@ export const AboutPage: React.FC = () => {
                   关于我
                 </h1>
                 <p className="text-xl text-neutral-600 font-medium mb-6">
-                  资深视觉设计师 · 设计系统架构师 · 开源贡献者
+                  船舶与海洋工程 · 船舶设计 · 游艇造型
                 </p>
               </FadeIn>
 
               <FadeIn direction="up" delay={0.2}>
                 <div className="space-y-4 text-neutral-600 leading-relaxed text-base md:text-lg">
                   <p>
-                    你好，我是一名拥有 10 年经验的视觉设计师，专注于品牌设计、UI/UX 设计以及设计系统构建。
-                    我相信好的设计不仅是视觉上的美感，更是解决问题、传递价值的有效工具。
+                    你好，我是郑一鸣，广东海洋大学船舶与海洋工程专业 2027 届本科生，
+                    GPA 3.78/5.0，专业排名 2/121。
                   </p>
                   <p>
-                    从中央美术学院到星辰设计事务所，从独立自由设计师到带领设计团队，
-                    我始终坚持"设计驱动商业，细节成就品质"的理念。期间服务过互联网、金融、消费品、公益等多个领域，
-                    累计完成 150+ 商业项目。
+                    我的项目覆盖船体结构、静水力与稳性、阻力与推进、船型建模及生产设计；
+                    同时持续参与游艇造型竞赛，负责建模、渲染、展板与说明书等完整交付。
                   </p>
                   <p>
-                    除了商业设计，我也热衷于开源贡献与个人实验项目。
-                    我发起维护了 OpenDesign UI 组件库，探索中文字体在数字媒介中的表现力，
-                    并积极参与公益设计项目，用设计创造社会价值。
+                    我希望在船舶设计、技术与质量、验船或船东技术相关岗位继续成长，
+                    将工程计算、三维设计和清晰表达结合起来解决真实问题。
                   </p>
                 </div>
               </FadeIn>
 
               <FadeIn direction="up" delay={0.3}>
                 <div className="mt-8 flex flex-wrap gap-4">
-                  <Button variant="primary" size="lg" className="flex items-center gap-2">
+                  <Button variant="primary" size="lg" href={`${import.meta.env.BASE_URL}resume/郑一鸣-简历.pdf`} external className="flex items-center gap-2">
                     <Download className="w-5 h-5" />
                     下载简历
                   </Button>
@@ -104,7 +110,7 @@ export const AboutPage: React.FC = () => {
                 <div className="text-4xl md:text-5xl font-bold text-neutral-900 mb-2">
                   <CountUp end={stats.years} duration={2} suffix="+" />
                 </div>
-                <p className="text-neutral-500 font-medium">年设计经验</p>
+                <p className="text-neutral-500 font-medium">组织管理经历</p>
               </div>
             </FadeIn>
             <FadeIn direction="up" delay={0.1}>
@@ -112,7 +118,7 @@ export const AboutPage: React.FC = () => {
                 <div className="text-4xl md:text-5xl font-bold text-neutral-900 mb-2">
                   <CountUp end={stats.projects} duration={2} suffix="+" />
                 </div>
-                <p className="text-neutral-500 font-medium">完成项目</p>
+                <p className="text-neutral-500 font-medium">工程与设计项目</p>
               </div>
             </FadeIn>
             <FadeIn direction="up" delay={0.2}>
@@ -120,7 +126,7 @@ export const AboutPage: React.FC = () => {
                 <div className="text-4xl md:text-5xl font-bold text-neutral-900 mb-2">
                   <CountUp end={stats.clients} duration={2} suffix="+" />
                 </div>
-                <p className="text-neutral-500 font-medium">合作客户</p>
+                <p className="text-neutral-500 font-medium">实用新型专利</p>
               </div>
             </FadeIn>
             <FadeIn direction="up" delay={0.3}>
@@ -128,7 +134,7 @@ export const AboutPage: React.FC = () => {
                 <div className="text-4xl md:text-5xl font-bold text-neutral-900 mb-2">
                   <CountUp end={stats.awards} duration={2} />
                 </div>
-                <p className="text-neutral-500 font-medium">设计奖项</p>
+                <p className="text-neutral-500 font-medium">竞赛奖项</p>
               </div>
             </FadeIn>
           </div>
@@ -139,8 +145,8 @@ export const AboutPage: React.FC = () => {
       <section className="py-16 md:py-20 bg-neutral-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTitle
-            title="工作经历"
-            subtitle="十年设计生涯，从自由设计师到设计主管的成长之路"
+            title="组织与项目经历"
+            subtitle="从团队管理到竞赛交付的实践记录"
             align="center"
             showLine
             className="mb-12"
@@ -158,7 +164,7 @@ export const AboutPage: React.FC = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTitle
             title="教育背景"
-            subtitle="扎实的学术训练与国际视野的拓展"
+            subtitle="船舶与海洋工程的系统学习与训练"
             align="center"
             showLine
             className="mb-12"
@@ -176,7 +182,7 @@ export const AboutPage: React.FC = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTitle
             title="技能与工具"
-            subtitle="设计、开发、效率，三位一体的技能矩阵"
+            subtitle="工程计算、三维建模、仿真分析与视觉表达"
             align="center"
             showLine
             className="mb-12"
@@ -224,12 +230,12 @@ export const AboutPage: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { year: '2025', title: '红点品牌与传达设计奖', org: 'Red Dot Award' },
-              { year: '2024', title: '中国公益设计年鉴入选', org: '中国设计博物馆' },
-              { year: '2024', title: 'Behance 首页推荐 × 6', org: 'Adobe Behance' },
-              { year: '2023', title: 'GitHub 年度热门中文开源项目', org: 'GitHub' },
-              { year: '2023', title: 'UX Design Awards 提名', org: 'International Design Center' },
-              { year: '2022', title: '站酷推荐设计师', org: 'ZCOOL 站酷' },
+              { year: '2026', title: '海南国际游艇设计大赛全国优秀奖', org: 'DRIFT 游艇设计' },
+              { year: '2024', title: '海南国际游艇设计大赛全国铜奖', org: '鲸梦泽 游艇设计' },
+              { year: '2024', title: '大学生邮轮游艇创新创意设计大赛全国三等奖', org: '蔚蓝之环' },
+              { year: '2024', title: '全国海洋航行器设计与制作大赛省级三等奖', org: '蝠鲼号' },
+              { year: '两学年', title: '一等奖学金', org: '广东海洋大学' },
+              { year: '两学年', title: '校级三好学生标兵', org: '广东海洋大学' },
             ].map((award, index) => (
               <FadeIn key={award.title} direction="up" delay={index * 0.1}>
                 <div className="flex items-start gap-4 p-5 rounded-xl bg-neutral-50 hover:bg-neutral-100 transition-colors duration-300 border border-neutral-100">

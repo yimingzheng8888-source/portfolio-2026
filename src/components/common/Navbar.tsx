@@ -70,7 +70,7 @@ export const Navbar: React.FC = () => {
             to="/"
             className="text-xl md:text-2xl font-bold tracking-wider text-primary hover:text-accent transition-colors"
           >
-            PORTFOLIO
+            郑一鸣 · PORTFOLIO
           </Link>
 
           {/* 桌面端导航 */}
