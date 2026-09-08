@@ -1,0 +1,299 @@
+[
+  {
+    "id": "drift-yacht",
+    "title": "DRIFT 60 超级游艇",
+    "category": "游艇设计",
+    "shortDesc": "以海南纺织文化为灵感，将远洋探索、文化体验与可持续生活纳入一艘 60 米超级游艇的概念设计。",
+    "description": "以海南纺织文化为灵感，将远洋探索、文化体验与可持续生活纳入一艘 60 米超级游艇的概念设计。",
+    "cover": "/images/design/drift-image1.webp",
+    "gallery": [
+      "/images/design/drift-image7.webp",
+      "/images/design/drift-image8.webp",
+      "/images/design/drift-image9.webp",
+      "/images/design/drift-image10.webp",
+      "/images/design/drift-image11.webp",
+      "/images/design/drift-image12.webp"
+    ],
+    "date": "2026",
+    "year": 2026,
+    "client": "第三届海南国际设计师大赛游艇设计分赛道",
+    "role": "两人团队负责人；造型建模、渲染、展板与设计说明",
+    "tools": [
+      "Rhino",
+      "3ds Max",
+      "Unreal Engine",
+      "Illustrator"
+    ],
+    "tags": [
+      "Rhino",
+      "3ds Max",
+      "Unreal Engine",
+      "Illustrator"
+    ],
+    "video": "drift",
+    "processImages": [
+      "/images/design/drift-image20.webp",
+      "/images/design/drift-image2.webp",
+      "/images/design/drift-image21.webp",
+      "/images/design/drift-image22.webp",
+      "/images/design/drift-image24.webp",
+      "/images/design/drift-image19.webp"
+    ],
+    "sections": {
+      "background": "DRIFT（泛舟）面向海南实业家的探索与文化体验需求，提出“海上文化驿站”概念。项目从黄道婆与崖州纺织文化出发，把传统工艺中的秩序和材料色彩转译为现代游艇的造型语言。",
+      "challenge": "在 60 米级船体内协调生活、社交与探索装备空间，同时保持外观的连续性。设计还需要统筹四层甲板动线、潜水器收放、可展开停机坪与室内文化体验，使各模块服务于同一使用场景。",
+      "solution": "长椭圆阵列舷窗回应织机综杆的机械节奏，大地色船体取意于黎锦植物染色。舱内借鉴中式园林“移步换景”的空间序列，以多媒体隔断组织会客与就餐区，并提出 AR 创新工坊、垂直农场、光伏停机坪和沉水式艉平台方案。",
+      "result": "完成外观与家具建模、四层甲板布置、实时渲染、展示视频及中英文设计说明。作品集记录该项目获得第三届海南国际设计师大赛游艇设计分赛道优秀奖。说明书包含 STAR-CCM+ 静水阻力初步分析；续航、动力和生态循环系统为概念设计目标，并非建成实船的测试结果。"
+    },
+    "specs": [
+      [
+        "总长",
+        "60 m"
+      ],
+      [
+        "型宽",
+        "11.1 m"
+      ],
+      [
+        "满载吃水",
+        "2.9 m"
+      ],
+      [
+        "总吨位",
+        "1,120 GT"
+      ],
+      [
+        "宾客 / 客舱",
+        "10 人 / 5 间"
+      ],
+      [
+        "设计续航目标",
+        "≥ 5,000 海里"
+      ]
+    ],
+    "decks": [
+      {
+        "label": "飞桥甲板",
+        "image": "/images/design/asset-9.webp"
+      },
+      {
+        "label": "上层甲板",
+        "image": "/images/design/asset-6.webp"
+      },
+      {
+        "label": "主甲板",
+        "image": "/images/design/asset-8.webp"
+      },
+      {
+        "label": "下层甲板",
+        "image": "/images/design/asset-7.webp"
+      }
+    ],
+    "posters": [
+      "/images/design/asset-3.webp",
+      "/images/design/asset-4.webp",
+      "/images/design/asset-5.webp"
+    ],
+    "featureImages": [
+      "/images/design/drift-image17.webp",
+      "/images/design/drift-image18.webp"
+    ]
+  },
+  {
+    "id": "blue-ring-yacht",
+    "title": "蔚蓝之环游览船",
+    "category": "游艇设计",
+    "shortDesc": "双体船、通透舷窗与可移动顶棚，共同构成面向水域观光的开放体验。",
+    "description": "双体船、通透舷窗与可移动顶棚，共同构成面向水域观光的开放体验。",
+    "cover": "/images/design/blue-cover.webp",
+    "gallery": [
+      "/images/design/asset-24.webp"
+    ],
+    "date": "2024",
+    "year": 2024,
+    "client": "设计作品",
+    "role": "五人团队负责人；概念、造型与视觉交付",
+    "tools": [
+      "Rhino",
+      "KeyShot",
+      "Illustrator"
+    ],
+    "tags": [
+      "Rhino",
+      "KeyShot",
+      "Illustrator"
+    ],
+    "video": null,
+    "processImages": [],
+    "sections": {
+      "background": "面向家庭、企业团队和游览团的中型游览船概念设计。",
+      "solution": "采用双体布局，配合艏侧推进器；以全通透玻璃、两侧观光甲板、电动移动顶棚与蓝色灯带组织室内外体验。",
+      "result": "完成设计说明、三维造型与展板。获 2024 大学生游轮游艇创新创意设计大赛三等奖。"
+    }
+  },
+  {
+    "id": "whale-dream",
+    "title": "鲸梦泽超级游艇",
+    "category": "游艇设计",
+    "shortDesc": "以完整展板和动态影像呈现超级游艇的外观、总体布置与室内空间。",
+    "description": "以完整展板和动态影像呈现超级游艇的外观、总体布置与室内空间。",
+    "cover": "/images/design/whale-cover.webp",
+    "gallery": [
+      "/images/design/asset-25.webp",
+      "/images/design/asset-26.webp",
+      "/images/design/asset-27.webp",
+      "/images/design/asset-28.webp"
+    ],
+    "date": "2024.12",
+    "year": 2024,
+    "client": "设计作品",
+    "role": "参与团队设计；渲染、图纸与展板制作",
+    "tools": [
+      "三维可视化",
+      "总体布置",
+      "展板设计"
+    ],
+    "tags": [
+      "三维可视化",
+      "总体布置",
+      "展板设计"
+    ],
+    "video": "whale",
+    "processImages": [],
+    "sections": {
+      "background": "第二届海南国际设计师大赛游艇设计分赛道参赛作品，与谢夏薇协作完成。",
+      "solution": "通过整体造型、功能布置、局部空间与室内效果的多视角展示，建立从外观到生活场景的项目叙事。",
+      "result": "完成四张展示版面及展示视频，作品获游艇设计分赛道铜奖。"
+    }
+  },
+  {
+    "id": "purify-manta",
+    "title": "蝠鲼号 Purify Manta",
+    "category": "海洋产品",
+    "shortDesc": "围绕水下清洗场景，展示仿生海洋航行器的整机造型、结构拆解与运动模式。",
+    "description": "围绕水下清洗场景，展示仿生海洋航行器的整机造型、结构拆解与运动模式。",
+    "cover": "/images/design/asset-22.webp",
+    "gallery": [
+      "/images/design/asset-19.webp",
+      "/images/design/asset-20.webp",
+      "/images/design/asset-21.webp",
+      "/images/design/asset-18.webp"
+    ],
+    "date": "设计作品",
+    "year": 0,
+    "client": "设计作品",
+    "role": "项目参与",
+    "tools": [
+      "仿生设计",
+      "三维建模",
+      "结构表达"
+    ],
+    "tags": [
+      "仿生设计",
+      "三维建模",
+      "结构表达"
+    ],
+    "video": null,
+    "processImages": [],
+    "sections": {
+      "background": "海洋航行器设计项目，以蝠鲼形态探索水下清洗设备的产品表达。",
+      "solution": "通过整机渲染、爆炸图、运动模式图和清洗流程图，说明外观、内部部件和作业场景之间的关系。",
+      "result": "形成模型、作品说明书与答辩展示资料。本页呈现设计方案及可视化成果。"
+    }
+  },
+  {
+    "id": "haiwei-tour",
+    "title": "海威 2 号网箱漫游",
+    "category": "虚拟漫游",
+    "shortDesc": "从甲板走道到水下网箱，以虚拟漫游呈现桁架式养殖网箱的空间尺度与结构。",
+    "description": "从甲板走道到水下网箱，以虚拟漫游呈现桁架式养殖网箱的空间尺度与结构。",
+    "cover": "/images/design/asset-15.webp",
+    "gallery": [
+      "/images/design/asset-15.webp",
+      "/images/design/asset-16.webp",
+      "/images/design/asset-17.webp"
+    ],
+    "date": "设计作品",
+    "year": 0,
+    "client": "设计作品",
+    "role": "项目参与",
+    "tools": [
+      "场景搭建",
+      "实时可视化",
+      "漫游展示"
+    ],
+    "tags": [
+      "场景搭建",
+      "实时可视化",
+      "漫游展示"
+    ],
+    "video": "haiwei",
+    "processImages": [],
+    "sections": {
+      "background": "海威 2 号桁架式养殖网箱虚拟漫游系统。",
+      "solution": "组织甲板、走道、桁架和水下网箱等连续场景，以人物视角辅助理解设施尺度与空间关系。",
+      "result": "完成三组场景截图和虚拟漫游系统 1.0 演示视频。"
+    }
+  },
+  {
+    "id": "dolphin-ip",
+    "title": "小海豚原创 IP 与周边",
+    "category": "IP 设计",
+    "shortDesc": "将海洋主题延伸到校园传播：从六组角色表情，到可携带的钥匙扣实物。",
+    "description": "将海洋主题延伸到校园传播：从六组角色表情，到可携带的钥匙扣实物。",
+    "cover": "/images/design/asset-13.webp",
+    "gallery": [
+      "/images/design/asset-11.webp",
+      "/images/design/asset-12.webp",
+      "/images/design/asset-13.webp",
+      "/images/design/asset-14.webp"
+    ],
+    "date": "设计作品",
+    "year": 0,
+    "client": "设计作品",
+    "role": "原创 IP 与周边设计",
+    "tools": [
+      "角色设计",
+      "表情延展",
+      "周边设计"
+    ],
+    "tags": [
+      "角色设计",
+      "表情延展",
+      "周边设计"
+    ],
+    "video": null,
+    "processImages": [],
+    "sections": {
+      "background": "面向公众号内容传播的小海豚原创角色设计。",
+      "solution": "以同一角色建立六组动作与情绪表达，保持配色、轮廓和五官语言的一致性，并将平面形象应用到钥匙扣。",
+      "result": "完成角色图组与周边实物，将数字视觉延伸为日常使用的物件。"
+    }
+  },
+  {
+    "id": "port-berthing",
+    "title": "港口靠泊场景展示",
+    "category": "虚拟漫游",
+    "shortDesc": "通过动态场景呈现港口靠泊过程，探索船舶动作与环境的可视化表达。",
+    "description": "通过动态场景呈现港口靠泊过程，探索船舶动作与环境的可视化表达。",
+    "cover": "/videos/berthing-poster.jpg",
+    "gallery": [],
+    "date": "设计作品",
+    "year": 0,
+    "client": "设计作品",
+    "role": "项目参与",
+    "tools": [
+      "场景可视化",
+      "动态演示"
+    ],
+    "tags": [
+      "场景可视化",
+      "动态演示"
+    ],
+    "video": "berthing",
+    "processImages": [],
+    "sections": {
+      "result": "展示所提供的港口靠泊项目最终效果视频。"
+    }
+  }
+]

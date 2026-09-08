@@ -1,42 +1,93 @@
 [
   {
-    "id": "bulk-carrier-strength",
-    "title": "190.9 m 散货船船体强度与结构设计",
-    "category": "结构设计",
-    "description": "规范计算、构件设计与总纵强度校核。",
-    "cover": "/images/special-projects/bulk-carrier-strength-cover.jpg",
-    "tags": ["船体结构", "总纵强度", "规范计算"],
-    "year": 2026,
-    "link": "/special-projects/bulk-carrier-strength"
-  },
-  {
     "id": "drift-yacht",
-    "title": "DRIFT 游艇造型设计",
+    "title": "DRIFT 60 超级游艇",
     "category": "游艇设计",
-    "description": "海南国际游艇设计大赛全国优秀奖作品。",
-    "cover": "/images/special-projects/drift-yacht-cover.jpg",
-    "tags": ["游艇设计", "Rhino", "Unreal Engine"],
-    "year": 2026,
-    "link": "/special-projects/drift-yacht"
+    "description": "以海南纺织文化为灵感，将远洋探索、文化体验与可持续生活纳入一艘 60 米超级游艇的概念设计。",
+    "cover": "/images/design/drift-image1.webp",
+    "tags": [
+      "Rhino",
+      "3ds Max",
+      "Unreal Engine",
+      "Illustrator"
+    ],
+    "year": 2026
   },
   {
     "id": "blue-ring-yacht",
-    "title": "蔚蓝之环邮轮游艇创新设计",
+    "title": "蔚蓝之环游览船",
     "category": "游艇设计",
-    "description": "大学生邮轮游艇创新创意设计大赛全国三等奖作品。",
-    "cover": "/images/special-projects/blue-ring-yacht-cover.jpg",
-    "tags": ["概念设计", "Rhino", "KeyShot"],
-    "year": 2024,
-    "link": "/special-projects/blue-ring-yacht"
+    "description": "双体船、通透舷窗与可移动顶棚，共同构成面向水域观光的开放体验。",
+    "cover": "/images/design/blue-cover.webp",
+    "tags": [
+      "Rhino",
+      "KeyShot",
+      "Illustrator"
+    ],
+    "year": 2024
   },
   {
-    "id": "maxsurf-analysis",
-    "title": "Maxsurf 船型建模与性能分析",
-    "category": "船型性能",
-    "description": "供应船与货船的建模、静水力、阻力和耐波性分析。",
-    "cover": "/images/special-projects/maxsurf-analysis-cover.jpg",
-    "tags": ["Maxsurf", "静水力", "阻力", "耐波性"],
-    "year": 2025,
-    "link": "/special-projects/maxsurf-analysis"
+    "id": "whale-dream",
+    "title": "鲸梦泽超级游艇",
+    "category": "游艇设计",
+    "description": "以完整展板和动态影像呈现超级游艇的外观、总体布置与室内空间。",
+    "cover": "/images/design/whale-cover.webp",
+    "tags": [
+      "三维可视化",
+      "总体布置",
+      "展板设计"
+    ],
+    "year": 2025
+  },
+  {
+    "id": "purify-manta",
+    "title": "蝠鲼号 Purify Manta",
+    "category": "海洋产品",
+    "description": "围绕水下清洗场景，展示仿生海洋航行器的整机造型、结构拆解与运动模式。",
+    "cover": "/images/design/asset-22.webp",
+    "tags": [
+      "仿生设计",
+      "三维建模",
+      "结构表达"
+    ],
+    "year": 0
+  },
+  {
+    "id": "haiwei-tour",
+    "title": "海威 2 号网箱漫游",
+    "category": "虚拟漫游",
+    "description": "从甲板走道到水下网箱，以虚拟漫游呈现桁架式养殖网箱的空间尺度与结构。",
+    "cover": "/images/design/asset-15.webp",
+    "tags": [
+      "场景搭建",
+      "实时可视化",
+      "漫游展示"
+    ],
+    "year": 0
+  },
+  {
+    "id": "dolphin-ip",
+    "title": "小海豚原创 IP 与周边",
+    "category": "IP 设计",
+    "description": "将海洋主题延伸到校园传播：从六组角色表情，到可携带的钥匙扣实物。",
+    "cover": "/images/design/asset-13.webp",
+    "tags": [
+      "角色设计",
+      "表情延展",
+      "周边设计"
+    ],
+    "year": 0
+  },
+  {
+    "id": "port-berthing",
+    "title": "港口靠泊场景展示",
+    "category": "虚拟漫游",
+    "description": "通过动态场景呈现港口靠泊过程，探索船舶动作与环境的可视化表达。",
+    "cover": "/videos/berthing-poster.jpg",
+    "tags": [
+      "场景可视化",
+      "动态演示"
+    ],
+    "year": 0
   }
 ]

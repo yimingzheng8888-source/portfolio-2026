@@ -2,9 +2,9 @@
   {
     "id": "milestone-01",
     "name": "DRIFT",
-    "title": "全国优秀奖",
-    "company": "第三届海南国际游艇设计大赛",
-    "avatar": "/images/testimonials/drift.jpg",
+    "title": "优秀奖",
+    "company": "第三届海南国际设计师大赛游艇设计分赛道",
+    "avatar": "/images/design/drift-image1.webp",
     "rating": 5,
     "content": "作为两人团队负责人，承担游艇造型建模、渲染、展板和设计说明书制作，完成从方案到竞赛交付的完整流程。",
     "project": "drift-yacht"
@@ -13,8 +13,8 @@
     "id": "milestone-02",
     "name": "蔚蓝之环",
     "title": "全国三等奖",
-    "company": "大学生邮轮游艇创新创意设计大赛",
-    "avatar": "/images/testimonials/blue-ring.jpg",
+    "company": "设计作品",
+    "avatar": "/images/design/blue-cover.webp",
     "rating": 5,
     "content": "作为五人团队负责人，组织并完成从概念、造型到表达交付的全流程设计。",
     "project": "blue-ring-yacht"
@@ -22,21 +22,11 @@
   {
     "id": "milestone-03",
     "name": "鲸梦泽",
-    "title": "全国铜奖",
-    "company": "第二届海南国际游艇设计大赛",
-    "avatar": "/images/testimonials/whale-dream.jpg",
+    "title": "铜奖",
+    "company": "第二届海南国际设计师大赛游艇设计分赛道",
+    "avatar": "/images/design/whale-cover.webp",
     "rating": 5,
     "content": "参与游艇竞赛项目，负责渲染、图纸和展板制作，积累团队协作与完整视觉交付经验。",
-    "project": "yacht-design"
-  },
-  {
-    "id": "milestone-04",
-    "name": "船舶工作室",
-    "title": "负责人",
-    "company": "广东海洋大学",
-    "avatar": "/images/testimonials/ship-studio.jpg",
-    "rating": 5,
-    "content": "面向约 60 名成员开展组织管理，建立技能培训、竞赛任务、OKR 复盘及人才培养机制。",
-    "project": "team-leadership"
+    "project": "whale-dream"
   }
 ]

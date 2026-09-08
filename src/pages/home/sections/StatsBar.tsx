@@ -16,7 +16,7 @@ interface StatItem {
 
 const stats: StatItem[] = [
   { value: 2, suffix: '/121', label: '专业排名' },
-  { value: 6, suffix: '+', label: '工程设计项目' },
+  { value: 7, suffix: '', label: '设计作品' },
   { value: 4, suffix: '', label: '竞赛奖项' },
   { value: 2, suffix: '', label: '实用新型专利', decimals: 0 },
 ];

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { Router } from './app/router';
 import '@styles/global.css';
 import '@styles/animations.css';
+import '@styles/design.css';
 
 /**
  * 应用入口文件

@@ -117,15 +117,17 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
 
     setIsSubmitting(true);
 
-    // 模拟提交
+    // 打开邮件客户端
     try {
-      console.log('【联系表单提交】', formData);
+      const subject = subjectOptions.find(option => option.value === formData.subject)?.label || '作品集联系';
+      const body = `${formData.message}\n\n联系人：${formData.name}\n回复邮箱：${formData.email}`;
+      window.location.href = `mailto:yiming.zheng.work@outlook.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
-      // 模拟网络延迟
-      await new Promise((resolve) => setTimeout(resolve, 1500));
+      // 保留输入，便于未配置邮件客户端时复制。
+
 
       setSubmitStatus('success');
-      setFormData({ name: '', email: '', subject: '', message: '' });
+
       setTouched({});
       setErrors({});
 
@@ -264,8 +266,8 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
             <div>
-              <p className="font-semibold text-green-800">消息已发送成功！</p>
-              <p className="text-sm text-green-700 mt-1">感谢您的联系，我会尽快回复您。</p>
+              <p className="font-semibold text-green-800">请在邮件应用中确认发送</p>
+              <p className="text-sm text-green-700 mt-1">已尝试打开邮件草稿；若未弹出邮件应用，请直接联系 yiming.zheng.work@outlook.com。</p>
             </div>
           </div>
         )}
@@ -299,7 +301,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
               发送中...
             </span>
           ) : (
-            '发送消息'
+            '打开邮件草稿'
           )}
         </Button>
       </form>

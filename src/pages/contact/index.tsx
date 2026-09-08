@@ -8,8 +8,8 @@ const contactInfo = [
   {
     icon: <Mail className="w-5 h-5" />,
     label: '邮箱',
-    value: '2849597574@qq.com',
-    href: 'mailto:2849597574@qq.com',
+    value: 'yiming.zheng.work@outlook.com',
+    href: 'mailto:yiming.zheng.work@outlook.com',
   },
   {
     icon: <Phone className="w-5 h-5" />,
@@ -32,7 +32,7 @@ const contactInfo = [
 ];
 
 const socialLinks = [
-  { icon: <Mail className="w-5 h-5" />, label: '电子邮箱', href: 'mailto:2849597574@qq.com' },
+  { icon: <Mail className="w-5 h-5" />, label: '电子邮箱', href: 'mailto:yiming.zheng.work@outlook.com' },
 ];
 
 export const ContactPage: React.FC = () => {

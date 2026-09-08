@@ -4,6 +4,7 @@
 export interface Skill {
   /** 唯一标识 */
   id: string;
+  icon?: string;
   /** 技能名称 */
   label: string;
   /** 简短描述 */

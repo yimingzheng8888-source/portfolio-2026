@@ -6,9 +6,9 @@ import skillsData from '@data/skills.json';
 import testimonialsData from '@data/testimonials.json';
 import specialProjectsData from '@data/special-projects.json';
 
-import type { Work, Testimonial } from '@types/index';
-import type { Skill, SkillCategory } from '@types/skill-extended';
-import type { SpecialProject } from '@types/special-project';
+import type { Work, Testimonial } from '@/types/index';
+import type { Skill, SkillCategory } from '@/types/skill-extended';
+import type { SpecialProject } from '@/types/special-project';
 
 // Cast imported JSON data to typed arrays
 const works: Work[] = worksData as Work[];

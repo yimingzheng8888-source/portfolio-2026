@@ -8,7 +8,7 @@ import { ChevronLeft, ChevronRight, Award, Quote } from 'lucide-react';
 import { FadeIn } from '@components/animation/FadeIn';
 import { SectionTitle } from '@components/ui/SectionTitle';
 import testimonialsData from '@data/testimonials.json';
-import type { Testimonial } from '@types';
+import type { Testimonial } from '@/types';
 import { siteConfig } from '@/config/site';
 
 const testimonials: Testimonial[] = testimonialsData;
@@ -68,7 +68,7 @@ export const Testimonials: React.FC = () => {
           <SectionTitle
             title="成果记录"
             subtitle="Milestones"
-            light
+            variant="light"
             className="mb-16"
           />
         </FadeIn>

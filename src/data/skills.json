@@ -1,82 +1,56 @@
 [
   {
-    "id": "skill-structure",
-    "label": "船体结构设计",
-    "shortDesc": "规范计算、构件设计与总纵强度",
-    "fullDesc": "能够依据船舶建造规范完成构件设计、载荷计算、剖面特性计算与总纵强度校核，并清晰整理计算过程和结果。",
-    "tools": ["AutoCAD", "Excel", "船舶建造规范"],
-    "image": "/images/skills/skill-structure.jpg",
-    "proficiency": 88,
-    "category": "工程设计"
+    "id": "design-skill-0",
+    "label": "游艇造型设计",
+    "shortDesc": "从文化灵感与使用需求出发，完成草图推演、船体曲面与外观细节设计。",
+    "fullDesc": "从文化灵感与使用需求出发，完成草图推演、船体曲面与外观细节设计。",
+    "tools": [
+      "Rhino",
+      "概念草图"
+    ],
+    "image": "/images/design/drift-image21.webp",
+    "proficiency": 0,
+    "category": "设计表达"
   },
   {
-    "id": "skill-hydrostatics",
-    "label": "静水力与稳性",
-    "shortDesc": "船体曲面、静水力曲线与稳性校核",
-    "fullDesc": "能够从型值与线型出发建立船体曲面，完成静水力、浮态平衡、邦戎曲线、稳性横截曲线与典型装载工况校核。",
-    "tools": ["COMPASS", "Maxsurf", "AutoCAD", "Excel"],
-    "image": "/images/skills/skill-hydrostatics.jpg",
-    "proficiency": 86,
-    "category": "工程设计"
+    "id": "design-skill-1",
+    "label": "空间与总体布置",
+    "shortDesc": "围绕乘客动线、社交空间与装备收放，组织多层甲板及室内功能。",
+    "fullDesc": "围绕乘客动线、社交空间与装备收放，组织多层甲板及室内功能。",
+    "tools": [
+      "总体布置",
+      "空间规划"
+    ],
+    "image": "/images/design/asset-8.webp",
+    "proficiency": 0,
+    "category": "设计表达"
   },
   {
-    "id": "skill-performance",
-    "label": "船型性能分析",
-    "shortDesc": "阻力、推进与耐波性分析",
-    "fullDesc": "具备船型建模和基础性能分析能力，可开展阻力预报、推进匹配、初稳性和耐波性等课程设计工作。",
-    "tools": ["Maxsurf", "STAR-CCM+", "Excel"],
-    "image": "/images/skills/skill-performance.jpg",
-    "proficiency": 80,
-    "category": "分析仿真"
+    "id": "design-skill-2",
+    "label": "渲染与动态表达",
+    "shortDesc": "将三维模型转化为材质、灯光和可漫游场景，制作项目展示影像。",
+    "fullDesc": "将三维模型转化为材质、灯光和可漫游场景，制作项目展示影像。",
+    "tools": [
+      "3ds Max",
+      "Unreal Engine",
+      "KeyShot"
+    ],
+    "image": "/images/design/drift-image7.webp",
+    "proficiency": 0,
+    "category": "设计表达"
   },
   {
-    "id": "skill-production",
-    "label": "船舶生产设计",
-    "shortDesc": "分段三维建模与构件表达",
-    "fullDesc": "学习并使用沪东 SPD 完成分段生产设计练习，覆盖外板、甲板、纵骨、舱壁、平台、肋板与扶强材等构件。",
-    "tools": ["沪东 SPD", "AutoCAD"],
-    "image": "/images/skills/skill-production.jpg",
-    "proficiency": 76,
-    "category": "工程设计"
-  },
-  {
-    "id": "skill-3d",
-    "label": "三维建模",
-    "shortDesc": "船型与游艇造型建模",
-    "fullDesc": "能够使用 Rhino、3ds Max 与 Maxsurf 完成船型或游艇造型建模、曲面修顺和方案迭代。",
-    "tools": ["Rhino", "3ds Max", "Maxsurf"],
-    "image": "/images/skills/skill-3d.jpg",
-    "proficiency": 87,
-    "category": "三维表达"
-  },
-  {
-    "id": "skill-render",
-    "label": "渲染与视觉表达",
-    "shortDesc": "效果图、展板与设计说明",
-    "fullDesc": "能够完成竞赛项目的渲染、版式设计与说明书制作，把工程与造型方案转化为清晰、完整的视觉交付。",
-    "tools": ["KeyShot", "Unreal Engine", "Illustrator"],
-    "image": "/images/skills/skill-render.jpg",
-    "proficiency": 85,
-    "category": "三维表达"
-  },
-  {
-    "id": "skill-analysis",
-    "label": "有限元与流体仿真",
-    "shortDesc": "CAE 基础与课程实践",
-    "fullDesc": "具备 STAR-CCM+ 课程学习与 Abaqus/CAE 基础，可理解网格、边界条件、载荷和结果后处理的基本流程。",
-    "tools": ["STAR-CCM+", "Abaqus/CAE"],
-    "image": "/images/skills/skill-analysis.jpg",
-    "proficiency": 68,
-    "category": "分析仿真"
-  },
-  {
-    "id": "skill-leadership",
-    "label": "组织与项目协作",
-    "shortDesc": "团队管理、任务拆解与交付推进",
-    "fullDesc": "曾面向约 60 名成员开展组织管理，并担任多项竞赛团队负责人，能够组织训练、拆解任务、跟踪进度并推动完整交付。",
-    "tools": ["项目管理", "团队协作", "Office", "Excel"],
-    "image": "/images/skills/skill-leadership.jpg",
-    "proficiency": 90,
-    "category": "软技能"
+    "id": "design-skill-3",
+    "label": "视觉叙事与 IP",
+    "shortDesc": "通过展板、设计说明和原创角色，将设计概念转化为可读的视觉内容。",
+    "fullDesc": "通过展板、设计说明和原创角色，将设计概念转化为可读的视觉内容。",
+    "tools": [
+      "Illustrator",
+      "展板设计",
+      "角色设计"
+    ],
+    "image": "/images/design/asset-13.webp",
+    "proficiency": 0,
+    "category": "设计表达"
   }
 ]

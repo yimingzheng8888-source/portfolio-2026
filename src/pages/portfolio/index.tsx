@@ -3,7 +3,7 @@
 
 import React, { useState, useMemo, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useSearchParams } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 
 import { SectionTitle } from '@components/ui/SectionTitle';
 import { Badge } from '@components/ui/Badge';
@@ -14,11 +14,11 @@ import {
   getWorksByCategory,
 } from '@utils/dataHelpers';
 
-import type { Work } from '@types/index';
+import type { Work } from '@/types/index';
 import { siteConfig } from '@/config/site';
 
 // 分类配置（包含"全部"选项）
-const CATEGORIES = ['全部', '船体与结构', '船型与性能', '游艇设计', '工程实践'];
+const CATEGORIES = ['全部', ...new Set(getAllWorks().map(w => w.category))];
 
 // 作品卡片组件
 interface WorkCardProps {
@@ -30,7 +30,7 @@ const WorkCard: React.FC<WorkCardProps> = ({ work, index }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <FadeIn delay={index * 0.08} direction="up" once>
+    <FadeIn delay={index * 0.08} direction="up" once><Link to={`/special-projects/${work.id}`}>
       <motion.div
         className="group relative cursor-pointer"
         onMouseEnter={() => setIsHovered(true)}
@@ -98,14 +98,14 @@ const WorkCard: React.FC<WorkCardProps> = ({ work, index }) => {
             <Badge variant="secondary" size="sm">
               {work.category}
             </Badge>
-            <span className="text-xs text-[#999]">{work.year}</span>
+            <span className="text-xs text-[#999]">{work.year || ""}</span>
           </div>
           <h3 className="text-lg font-bold text-[#1a1a1a] mb-1 group-hover:text-[#c9a96e] transition-colors">
             {work.title}
           </h3>
           <p className="text-sm text-[#666] line-clamp-2">{work.description}</p>
           <div className="mt-3 flex items-center gap-3 text-xs text-[#999]">
-            <span>客户: {work.client}</span>
+            <span>项目: {work.client}</span>
             <span className="flex items-center gap-1">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
@@ -114,7 +114,7 @@ const WorkCard: React.FC<WorkCardProps> = ({ work, index }) => {
             </span>
           </div>
         </div>
-      </motion.div>
+      </motion.div></Link>
     </FadeIn>
   );
 };

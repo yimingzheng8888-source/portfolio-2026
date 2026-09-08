@@ -8,7 +8,7 @@ import { Palette, Layout, Image, Video, Box, Pencil, CheckCircle2 } from 'lucide
 import { FadeIn } from '@components/animation/FadeIn';
 import { SectionTitle } from '@components/ui/SectionTitle';
 import skillsData from '@data/skills.json';
-import type { Skill } from '@types';
+import type { Skill } from '@/types';
 import { siteConfig } from '@/config/site';
 
 const iconMap: Record<string, React.ElementType> = {
@@ -78,21 +78,7 @@ export const SkillsTree: React.FC = () => {
                         </h3>
                         <p className="text-text-muted text-sm">{skill.shortDesc}</p>
 
-                        {/* 熟练度进度条 */}
-                        <div className="mt-3">
-                          <div className="flex items-center justify-between mb-1">
-                            <span className="text-xs text-text-muted">熟练度</span>
-                            <span className="text-xs font-medium text-accent">{skill.proficiency}%</span>
-                          </div>
-                          <div className="h-2 bg-bg-secondary rounded-full overflow-hidden">
-                            <motion.div
-                              initial={{ width: 0 }}
-                              animate={{ width: isActive ? `${skill.proficiency}%` : '0%' }}
-                              transition={{ duration: 1, ease: 'easeOut' }}
-                              className="h-full bg-accent rounded-full"
-                            />
-                          </div>
-                        </div>
+
                       </div>
                     </div>
                   </motion.div>

@@ -71,7 +71,7 @@ export const skillTags: SkillTag[] = [
 
 export const stats = {
   years: 2,
-  projects: 8,
+  projects: 7,
   clients: 2,
   awards: 4,
 };

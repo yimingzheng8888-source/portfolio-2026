@@ -36,8 +36,8 @@ export const SpecialProjectsListPage: React.FC = () => {
           />
           <FadeIn direction="up" delay={0.2}>
             <p className="text-center text-gray-600 max-w-2xl mx-auto mt-6 leading-relaxed">
-              这里集中展示船体结构、船型性能与游艇造型项目。
-              当前图片位置均已保留，可在整理好项目文件后按说明直接替换。
+              以 DRIFT 60 为重点，展示游艇造型、海洋产品、虚拟漫游与原创 IP。
+              从设计概念到模型、图纸和影像，呈现每个项目的完整表达。
             </p>
           </FadeIn>
         </div>

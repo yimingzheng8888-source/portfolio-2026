@@ -45,22 +45,22 @@ export const Layout: React.FC = () => {
               <h4 className="font-semibold mb-4">快速链接</h4>
               <ul className="space-y-2">
                 <li>
-                  <a href="/portfolio-2026/portfolio" className="text-text-muted hover:text-accent text-sm transition-colors">
+                  <a href="/portfolio-2026/#/portfolio" className="text-text-muted hover:text-accent text-sm transition-colors">
                     作品集
                   </a>
                 </li>
                 <li>
-                  <a href="/portfolio-2026/special-projects" className="text-text-muted hover:text-accent text-sm transition-colors">
+                  <a href="/portfolio-2026/#/special-projects" className="text-text-muted hover:text-accent text-sm transition-colors">
                     特别项目
                   </a>
                 </li>
                 <li>
-                  <a href="/portfolio-2026/about" className="text-text-muted hover:text-accent text-sm transition-colors">
+                  <a href="/portfolio-2026/#/about" className="text-text-muted hover:text-accent text-sm transition-colors">
                     关于我
                   </a>
                 </li>
                 <li>
-                  <a href="/portfolio-2026/contact" className="text-text-muted hover:text-accent text-sm transition-colors">
+                  <a href="/portfolio-2026/#/contact" className="text-text-muted hover:text-accent text-sm transition-colors">
                     联系我
                   </a>
                 </li>
@@ -71,7 +71,7 @@ export const Layout: React.FC = () => {
             <div>
               <h4 className="font-semibold mb-4">联系方式</h4>
               <ul className="space-y-2 text-sm text-text-muted">
-                <li>邮箱: 2849597574@qq.com</li>
+                <li>邮箱: yiming.zheng.work@outlook.com</li>
                 <li>方向: 船舶设计 / 技术 / 质量 / 验船</li>
                 <li>院校: 广东海洋大学</li>
               </ul>

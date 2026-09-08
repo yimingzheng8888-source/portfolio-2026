@@ -6,7 +6,7 @@ import { Badge } from '@components/ui/Badge';
 import { Button } from '@components/ui/Button';
 import { Timeline } from '@components/timeline/Timeline';
 import { experiences, educations, skillTags, stats } from '@data/about';
-import { Briefcase, GraduationCap, Award, Download } from 'lucide-react';
+import { Briefcase, GraduationCap, Award } from 'lucide-react';
 import { siteConfig } from '@/config/site';
 
 export const AboutPage: React.FC = () => {
@@ -45,7 +45,7 @@ export const AboutPage: React.FC = () => {
                   <span className="text-gray-500 text-sm">个人照片占位</span>
                   {!siteConfig.usePlaceholderImages && (
                     <img
-                      src={`${import.meta.env.BASE_URL}images/profile/profile.jpg`}
+                      src={`${import.meta.env.BASE_URL}images/design/asset-0.webp`}
                       alt="郑一鸣"
                       className="absolute inset-0 w-full h-full object-cover"
                     />
@@ -75,7 +75,7 @@ export const AboutPage: React.FC = () => {
                     GPA 3.78/5.0，专业排名 2/121。
                   </p>
                   <p>
-                    我的项目覆盖船体结构、静水力与稳性、阻力与推进、船型建模及生产设计；
+                    我的设计作品覆盖超级游艇、游览船、海洋航行器、虚拟漫游与原创 IP；
                     同时持续参与游艇造型竞赛，负责建模、渲染、展板与说明书等完整交付。
                   </p>
                   <p>
@@ -87,10 +87,6 @@ export const AboutPage: React.FC = () => {
 
               <FadeIn direction="up" delay={0.3}>
                 <div className="mt-8 flex flex-wrap gap-4">
-                  <Button variant="primary" size="lg" href={`${import.meta.env.BASE_URL}resume/郑一鸣-简历.pdf`} external className="flex items-center gap-2">
-                    <Download className="w-5 h-5" />
-                    下载简历
-                  </Button>
                   <Button variant="outline" size="lg" href="/contact">
                     联系我
                   </Button>

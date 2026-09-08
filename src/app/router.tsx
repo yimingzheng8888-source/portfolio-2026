@@ -1,5 +1,5 @@
 import React from 'react';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import { Layout } from './layout';
 import { HomePage } from '@pages/home';
 import { PortfolioPage } from '@pages/portfolio';
@@ -12,7 +12,7 @@ import { ContactPage } from '@pages/contact';
  * 路由配置表
  * 所有页面路由在此注册
  */
-const router = createBrowserRouter(
+const router = createHashRouter(
   [
     {
       path: '/',
@@ -29,7 +29,7 @@ const router = createBrowserRouter(
     },
   ],
   {
-    basename: '/portfolio-2026',
+    basename: '/',
   }
 );
 

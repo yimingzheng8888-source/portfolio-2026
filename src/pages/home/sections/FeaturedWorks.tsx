@@ -10,7 +10,7 @@ import { FadeIn } from '@components/animation/FadeIn';
 import { SectionTitle } from '@components/ui/SectionTitle';
 import { Badge } from '@components/ui/Badge';
 import worksData from '@data/works.json';
-import type { Work } from '@types';
+import type { Work } from '@/types';
 import { siteConfig } from '@/config/site';
 
 const featuredWorks: Work[] = worksData.filter((w: Work) => w.isFeatured).slice(0, 6);
@@ -46,7 +46,7 @@ export const FeaturedWorks: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {featuredWorks.map((work, index) => (
             <FadeIn key={work.id} delay={index * 0.1} direction="up">
-              <Link to={`/portfolio`} className="group block">
+              <Link to={`/special-projects/${work.id}`} className="group block">
                 <motion.div
                   whileHover={{ y: -8 }}
                   transition={{ duration: 0.3 }}
@@ -65,7 +65,7 @@ export const FeaturedWorks: React.FC = () => {
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-400 flex items-center justify-center">
                       {/* 爱心按钮 */}
                       <button
-                        onClick={(e) => toggleLike(e, work.id)}
+                        aria-label={`收藏 ${work.title}`} onClick={(e) => toggleLike(e, work.id)}
                         className="absolute top-4 left-4 z-10 p-2 rounded-full bg-white/20 backdrop-blur-sm hover:bg-white/40 transition-all"
                         style={{
                           animation: likedWorks.has(work.id) ? 'heart-bounce 0.5s ease' : 'none',
@@ -90,7 +90,7 @@ export const FeaturedWorks: React.FC = () => {
                   <div className="p-5 md:p-6">
                     <div className="flex items-center gap-2 mb-3">
                       <Badge variant="accent">{work.category}</Badge>
-                      <span className="text-text-muted text-sm">{work.year}</span>
+                      <span className="text-text-muted text-sm">{work.year || ""}</span>
                     </div>
                     <h3 className="text-lg font-bold text-primary mb-2 group-hover:text-accent transition-colors">
                       {work.title}

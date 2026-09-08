@@ -1,113 +1,155 @@
 [
   {
-    "id": "bulk-carrier-strength",
-    "title": "190.9 m 散货船船体强度与结构设计",
-    "category": "船体与结构",
-    "year": 2026,
-    "client": "课程设计",
-    "description": "依据现行规范完成构件设计、载荷计算及总纵强度校核。",
-    "fullDescription": "依据《国内航行海船建造规范（2024）》完成构件设计、重量与浮力计算、静水与波浪弯矩和剪力计算、剖面模数及总纵强度校核。最大弯曲应力 123.30 N/mm²、最大剪应力 10.16 N/mm²，满足规范要求。",
-    "thumbnail": "/images/works/featured/bulk-carrier-strength.jpg",
-    "images": ["/images/works/featured/bulk-carrier-strength.jpg"],
-    "tags": ["船体结构", "规范计算", "总纵强度"],
-    "isFeatured": true,
-    "likes": 0
-  },
-  {
-    "id": "bulk-carrier-stability",
-    "title": "190.9 m 散货船静水力与稳性计算",
-    "category": "船型与性能",
-    "year": 2026,
-    "client": "课程设计",
-    "description": "完成船体曲面、静水力曲线、邦戎曲线、稳性横截曲线与 GZ 校核。",
-    "fullDescription": "使用 COMPASS、AutoCAD 与 Excel，由型值表修顺艏艉线型并建立封闭船体曲面，完成静水力曲线、邦戎曲线、稳性横截曲线以及满载出港工况 GZ 计算。",
-    "thumbnail": "/images/works/featured/bulk-carrier-stability.jpg",
-    "images": ["/images/works/featured/bulk-carrier-stability.jpg"],
-    "tags": ["COMPASS", "静水力", "稳性"],
-    "isFeatured": true,
-    "likes": 0
-  },
-  {
     "id": "drift-yacht",
-    "title": "DRIFT 游艇造型设计",
+    "title": "DRIFT 60 超级游艇",
     "category": "游艇设计",
     "year": 2026,
-    "client": "海南国际游艇设计大赛",
-    "description": "两人团队负责人，完成造型建模、渲染、展板与设计说明书。",
-    "fullDescription": "第三届海南国际游艇设计大赛全国优秀奖作品。作为两人团队负责人，承担造型建模、渲染、展板和设计说明书制作，使用 Rhino、3ds Max、Unreal Engine 与 Illustrator。",
-    "thumbnail": "/images/works/featured/drift-yacht.jpg",
-    "images": ["/images/works/featured/drift-yacht.jpg"],
-    "tags": ["Rhino", "3ds Max", "Unreal Engine"],
+    "client": "第三届海南国际设计师大赛游艇设计分赛道",
+    "description": "以海南纺织文化为灵感，将远洋探索、文化体验与可持续生活纳入一艘 60 米超级游艇的概念设计。",
+    "fullDescription": "以海南纺织文化为灵感，将远洋探索、文化体验与可持续生活纳入一艘 60 米超级游艇的概念设计。",
+    "thumbnail": "/images/design/drift-image1.webp",
+    "images": [
+      "/images/design/drift-image7.webp",
+      "/images/design/drift-image8.webp",
+      "/images/design/drift-image9.webp",
+      "/images/design/drift-image10.webp",
+      "/images/design/drift-image11.webp",
+      "/images/design/drift-image12.webp"
+    ],
+    "tags": [
+      "Rhino",
+      "3ds Max",
+      "Unreal Engine",
+      "Illustrator"
+    ],
     "isFeatured": true,
     "likes": 0
   },
   {
     "id": "blue-ring-yacht",
-    "title": "蔚蓝之环邮轮游艇创新设计",
+    "title": "蔚蓝之环游览船",
     "category": "游艇设计",
     "year": 2024,
-    "client": "大学生邮轮游艇创新创意设计大赛",
-    "description": "五人团队负责人，组织并完成从概念、造型到表达交付的全流程。",
-    "fullDescription": "2024 大学生邮轮游艇创新创意设计大赛全国三等奖作品。作为五人团队负责人，组织并完成从概念、造型到表达交付的全流程设计。",
-    "thumbnail": "/images/works/featured/blue-ring-yacht.jpg",
-    "images": ["/images/works/featured/blue-ring-yacht.jpg"],
-    "tags": ["Rhino", "KeyShot", "Illustrator"],
+    "client": "设计作品",
+    "description": "双体船、通透舷窗与可移动顶棚，共同构成面向水域观光的开放体验。",
+    "fullDescription": "双体船、通透舷窗与可移动顶棚，共同构成面向水域观光的开放体验。",
+    "thumbnail": "/images/design/blue-cover.webp",
+    "images": [
+      "/images/design/asset-24.webp"
+    ],
+    "tags": [
+      "Rhino",
+      "KeyShot",
+      "Illustrator"
+    ],
     "isFeatured": true,
     "likes": 0
   },
   {
-    "id": "maxsurf-analysis",
-    "title": "Maxsurf 船型建模与性能分析",
-    "category": "船型与性能",
-    "year": 2025,
-    "client": "课程设计",
-    "description": "完成供应船与货船建模，以及静水力、阻力和耐波性分析。",
-    "fullDescription": "完成 29 m 供应船及 4,000 t 货船船型建模，覆盖曲线与曲面生成、模型修顺，并完成静水力、浮态平衡、初稳性、阻力及耐波性分析。",
-    "thumbnail": "/images/works/featured/maxsurf-analysis.jpg",
-    "images": ["/images/works/featured/maxsurf-analysis.jpg"],
-    "tags": ["Maxsurf", "阻力", "耐波性"],
+    "id": "whale-dream",
+    "title": "鲸梦泽超级游艇",
+    "category": "游艇设计",
+    "year": 2024,
+    "client": "设计作品",
+    "description": "以完整展板和动态影像呈现超级游艇的外观、总体布置与室内空间。",
+    "fullDescription": "以完整展板和动态影像呈现超级游艇的外观、总体布置与室内空间。",
+    "thumbnail": "/images/design/whale-cover.webp",
+    "images": [
+      "/images/design/asset-25.webp",
+      "/images/design/asset-26.webp",
+      "/images/design/asset-27.webp",
+      "/images/design/asset-28.webp"
+    ],
+    "tags": [
+      "三维可视化",
+      "总体布置",
+      "展板设计"
+    ],
     "isFeatured": true,
     "likes": 0
   },
   {
-    "id": "spd-production",
-    "title": "沪东 SPD 分段生产设计",
-    "category": "工程实践",
-    "year": 2025,
-    "client": "课程实践",
-    "description": "完成 220、221、222 分段三维生产设计练习。",
-    "fullDescription": "系统学习沪东 SPD，完成 220、221、222 分段三维生产设计练习，建模内容包括外板、甲板板、纵骨、开孔、舱壁、平台、肋板及扶强材等。",
-    "thumbnail": "/images/works/featured/spd-production.jpg",
-    "images": ["/images/works/featured/spd-production.jpg"],
-    "tags": ["沪东 SPD", "生产设计", "分段建模"],
+    "id": "purify-manta",
+    "title": "蝠鲼号 Purify Manta",
+    "category": "海洋产品",
+    "year": 0,
+    "client": "设计作品",
+    "description": "围绕水下清洗场景，展示仿生海洋航行器的整机造型、结构拆解与运动模式。",
+    "fullDescription": "围绕水下清洗场景，展示仿生海洋航行器的整机造型、结构拆解与运动模式。",
+    "thumbnail": "/images/design/asset-22.webp",
+    "images": [
+      "/images/design/asset-19.webp",
+      "/images/design/asset-20.webp",
+      "/images/design/asset-21.webp",
+      "/images/design/asset-18.webp"
+    ],
+    "tags": [
+      "仿生设计",
+      "三维建模",
+      "结构表达"
+    ],
     "isFeatured": true,
     "likes": 0
   },
   {
-    "id": "propeller-design",
-    "title": "190.9 m 散货船阻力与螺旋桨设计",
-    "category": "船型与性能",
-    "year": 2025,
-    "client": "课程设计",
-    "description": "采用艾亚法估算阻力并完成 MAU 系列螺旋桨图谱设计。",
-    "fullDescription": "采用艾亚法估算阻力并完成 MAU4-40/55/70 系列螺旋桨图谱设计，校核空泡、强度、螺距与敞水特性。设计工况约为 105 r/min、14.6 kn、14,000 kW。",
-    "thumbnail": "/images/works/grid/propeller-design.jpg",
-    "images": ["/images/works/grid/propeller-design.jpg"],
-    "tags": ["阻力", "螺旋桨", "艾亚法"],
-    "isFeatured": false,
+    "id": "haiwei-tour",
+    "title": "海威 2 号网箱漫游",
+    "category": "虚拟漫游",
+    "year": 0,
+    "client": "设计作品",
+    "description": "从甲板走道到水下网箱，以虚拟漫游呈现桁架式养殖网箱的空间尺度与结构。",
+    "fullDescription": "从甲板走道到水下网箱，以虚拟漫游呈现桁架式养殖网箱的空间尺度与结构。",
+    "thumbnail": "/images/design/asset-15.webp",
+    "images": [
+      "/images/design/asset-15.webp",
+      "/images/design/asset-16.webp",
+      "/images/design/asset-17.webp"
+    ],
+    "tags": [
+      "场景搭建",
+      "实时可视化",
+      "漫游展示"
+    ],
+    "isFeatured": true,
     "likes": 0
   },
   {
-    "id": "steel-platform",
-    "title": "钢结构平台设计",
-    "category": "船体与结构",
-    "year": 2025,
-    "client": "课程设计",
-    "description": "完成 Q355B 平台构件设计与强度、刚度、稳定性及焊缝校核。",
-    "fullDescription": "完成 36.8 m × 20 m、Q355B 平台的面板、主次梁、立柱和柱脚设计，并进行强度、刚度、稳定性及焊缝校核。",
-    "thumbnail": "/images/works/grid/steel-platform.jpg",
-    "images": ["/images/works/grid/steel-platform.jpg"],
-    "tags": ["钢结构", "强度校核", "焊缝"],
+    "id": "dolphin-ip",
+    "title": "小海豚原创 IP 与周边",
+    "category": "IP 设计",
+    "year": 0,
+    "client": "设计作品",
+    "description": "将海洋主题延伸到校园传播：从六组角色表情，到可携带的钥匙扣实物。",
+    "fullDescription": "将海洋主题延伸到校园传播：从六组角色表情，到可携带的钥匙扣实物。",
+    "thumbnail": "/images/design/asset-13.webp",
+    "images": [
+      "/images/design/asset-11.webp",
+      "/images/design/asset-12.webp",
+      "/images/design/asset-13.webp",
+      "/images/design/asset-14.webp"
+    ],
+    "tags": [
+      "角色设计",
+      "表情延展",
+      "周边设计"
+    ],
+    "isFeatured": true,
+    "likes": 0
+  },
+  {
+    "id": "port-berthing",
+    "title": "港口靠泊场景展示",
+    "category": "虚拟漫游",
+    "year": 0,
+    "client": "设计作品",
+    "description": "通过动态场景呈现港口靠泊过程，探索船舶动作与环境的可视化表达。",
+    "fullDescription": "通过动态场景呈现港口靠泊过程，探索船舶动作与环境的可视化表达。",
+    "thumbnail": "/videos/berthing-poster.jpg",
+    "images": [],
+    "tags": [
+      "场景可视化",
+      "动态演示"
+    ],
     "isFeatured": false,
     "likes": 0
   }
