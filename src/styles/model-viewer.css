@@ -2,7 +2,7 @@
 .model-section-heading p { font-size: 13px; color: #8b6731; margin-bottom: 10px; }
 .model-section-heading > span { font-size: 12px; color: #546571; background: #edf2f4; border-radius: 5px; padding: 7px 12px; white-space: nowrap; }
 .model-panel { background: #edf1f3; border: 1px solid #dce3e7; border-radius: 12px; overflow: hidden; }
-.model-stage { position: relative; height: clamp(360px, 46vw, 580px); background: radial-gradient(ellipse at 50% 38%, #fff, #dce5e9); }
+.model-stage { position: relative; height: clamp(360px, 46vw, 580px); background: radial-gradient(ellipse at 50% 38%, #cbd4dc, #91a4b3); }
 .model-stage model-viewer { display: block; width: 100%; height: 100%; --progress-bar-color: #a88243; --poster-color: transparent; }
 .model-poster { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
 .model-poster > img { width: 90%; max-height: 78%; object-fit: contain; margin-bottom: 30px; }
@@ -37,3 +37,4 @@
   .model-tool-buttons { width: 100%; justify-content: center; gap: 12px; }
   .model-instructions { justify-content: center; font-size: 11px; padding: 0 12px 12px; }
 }
+

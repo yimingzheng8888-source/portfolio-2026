@@ -15,3 +15,5 @@ node --max-old-space-size=4096 scripts/optimize-drift.mjs /path/to/drift-full.gl
 脚本同时更新 `src/data/drift-model.json`。Draco 解码器来自 three.js 所附的 Google Draco glTF 解码器，随网站在 `public/models/draco/` 本地托管。模型与查看器代码仅在访客点击加载按钮后下载。
 
 验证：TypeScript、生产构建；Chrome 桌面及 390px 手机视口；旋转、缩放、视角切换、全屏、自动旋转、失败重试；未点击时不下载 GLB。
+
+海报配色校准：运行 `node scripts/tune-drift-materials.mjs`，只更新材质 JSON、保留压缩几何。船漆采用香槟金及柔和高光，玻璃降低透射并加深颜色，配合查看器 0.7 曝光和 ACES 色调映射。重新运行模型压缩后需再执行配色脚本。

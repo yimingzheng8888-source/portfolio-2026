@@ -46,7 +46,7 @@ export function DriftModelViewer() {
     import('@google/model-viewer').then(({ModelViewerElement}) => {
       if (disposed) return;
       ModelViewerElement.dracoDecoderLocation = `${base}models/draco/`;
-      element.src = `${base}${modelInfo.file}${attempt ? `?retry=${attempt}` : ''}`;
+      element.src = `${base}${modelInfo.file}?finish=poster-1${attempt ? `&retry=${attempt}` : ''}`;
     }).catch(failed);
     return () => {
       disposed = true;
@@ -109,8 +109,8 @@ export function DriftModelViewer() {
           'environment-image': 'neutral',
           'shadow-intensity': '0.6',
           'shadow-softness': '1',
-          'exposure': '1.1',
-          'tone-mapping': 'neutral',
+          'exposure': '0.7',
+          'tone-mapping': 'aces',
           ...(rotating ? {'auto-rotate': '', 'rotation-per-second': '12deg'} : {}),
         })}
         {status !== 'ready' && <div className="model-poster">
