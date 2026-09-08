@@ -5,6 +5,7 @@ import '@styles/global.css';
 import '@styles/animations.css';
 import '@styles/design.css';
 import '@styles/refinements.css';
+import '@styles/studio.css';
 
 /**
  * 应用入口文件

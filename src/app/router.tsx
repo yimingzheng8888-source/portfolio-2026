@@ -42,7 +42,7 @@ function NotFoundPage(): React.ReactElement {
       <h1 className="text-6xl font-bold text-primary mb-4">404</h1>
       <p className="text-xl text-text-secondary mb-8">页面未找到</p>
       <a
-        href="/portfolio-2026/"
+        href={import.meta.env.BASE_URL}
         className="px-6 py-3 bg-accent text-white rounded-lg hover:bg-accent-hover transition-colors"
       >
         返回首页

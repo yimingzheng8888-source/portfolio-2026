@@ -1,92 +1,18 @@
-import React, { useEffect } from 'react';
-import { Outlet, useLocation } from 'react-router-dom';
+import { Link, Outlet, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 import { Navbar } from '@components/common/Navbar';
-
-/**
- * 全局布局组件
- * - 包含 Navbar (顶部固定)
- * - 包含 Footer (页尾)
- * - 主内容区使用 <Outlet />
- * - 页面切换时平滑滚动到顶部
- */
-export const Layout: React.FC = () => {
-  const location = useLocation();
-
-  // 页面切换时滚动到顶部
-  useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, [location.pathname]);
-
-  return (
-    <div className="min-h-screen flex flex-col">
-      <a className="skip-link" href="#main-content" onClick={event => {event.preventDefault();document.getElementById('main-content')?.focus();}}>跳至主要内容</a>
-      <Navbar />
-
-      {/* 主内容区 - 为固定导航栏留出空间 */}
-      <main id="main-content" tabIndex={-1} className="flex-1 pt-16 md:pt-20">
-        <Outlet />
-      </main>
-
-      {/* Footer */}
-      <footer className="bg-bg-dark text-text-inverse py-12">
-        <div className="container-custom">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* 品牌信息 */}
-            <div>
-              <h3 className="text-xl font-bold mb-4 tracking-wider">郑一鸣 · PORTFOLIO</h3>
-              <p className="text-text-muted text-sm leading-relaxed">
-                聚焦船舶工程与船舶设计，
-                <br />
-                用计算验证判断，用设计表达方案。
-              </p>
-            </div>
-
-            {/* 快速链接 */}
-            <div>
-              <h4 className="font-semibold mb-4">快速链接</h4>
-              <ul className="space-y-2">
-                <li>
-                  <a href="/portfolio-2026/#/portfolio" className="text-text-muted hover:text-accent text-sm transition-colors">
-                    作品集
-                  </a>
-                </li>
-                <li>
-                  <a href="/portfolio-2026/#/special-projects" className="text-text-muted hover:text-accent text-sm transition-colors">
-                    特别项目
-                  </a>
-                </li>
-                <li>
-                  <a href="/portfolio-2026/#/about" className="text-text-muted hover:text-accent text-sm transition-colors">
-                    关于我
-                  </a>
-                </li>
-                <li>
-                  <a href="/portfolio-2026/#/contact" className="text-text-muted hover:text-accent text-sm transition-colors">
-                    联系我
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            {/* 联系方式 */}
-            <div>
-              <h4 className="font-semibold mb-4">联系方式</h4>
-              <ul className="space-y-2 text-sm text-text-muted">
-                <li>邮箱: yiming.zheng.work@outlook.com</li>
-                <li>方向: 船舶设计 / 技术 / 质量 / 验船</li>
-                <li>院校: 广东海洋大学</li>
-              </ul>
-            </div>
-          </div>
-
-          {/* 版权信息 */}
-          <div className="mt-12 pt-8 border-t border-white/10 text-center">
-            <p className="text-text-muted text-sm">
-              © 2026 郑一鸣. Based on portfolio-2026.
-            </p>
-          </div>
-        </div>
-      </footer>
-    </div>
-  );
-};
+import { getSpecialProjectById } from '@data/special-projects';
+export function Layout() {
+  const {pathname}=useLocation();
+  useEffect(()=>{
+    window.scrollTo({top:0,behavior:'instant' as ScrollBehavior});
+    const title=pathname.startsWith('/special-projects/')?getSpecialProjectById(pathname.split('/').pop()!)?.title:({'/':'船舶与海洋设计作品集','/portfolio':'全部作品','/special-projects':'设计案例','/about':'关于我','/contact':'联系我'} as Record<string,string>)[pathname];
+    document.title=`${title || '页面未找到'} | 郑一鸣`;
+  },[pathname]);
+  return <div className="site-layout"><a className="skip-link" href="#main-content" onClick={e=>{e.preventDefault();document.getElementById('main-content')?.focus();}}>跳至主要内容</a><Navbar/>
+    <main id="main-content" tabIndex={-1}><Outlet/></main>
+    <footer className="site-footer"><div className="section-shell"><div className="footer-top"><div><h2>让设计成为下一次对话的起点。</h2><p>郑一鸣 · 广东海洋大学 · 2027 届船舶与海洋工程</p></div><Link className="footer-contact" to="/contact">联系我</Link></div>
+      <div className="footer-bottom"><a href="mailto:yiming.zheng.work@outlook.com">yiming.zheng.work@outlook.com</a><div><Link to="/portfolio">全部作品</Link><Link to="/about">关于我</Link><span>© {new Date().getFullYear()} 郑一鸣</span></div></div>
+    </div></footer>
+  </div>;
+}

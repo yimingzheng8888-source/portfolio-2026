@@ -8,10 +8,10 @@ const base = import.meta.env.BASE_URL;
 const initialOrbit = '-45deg 76deg 85%';
 const views = [
   { label: '整体视角', orbit: initialOrbit },
-  { label: '舷侧', orbit: '0deg 87deg 85%' },
+  { label: '舷侧', orbit: '0deg 87deg 110%' },
   { label: '艏部', orbit: '-90deg 82deg 85%' },
   { label: '艉部', orbit: '90deg 82deg 85%' },
-  { label: '俯视', orbit: '0deg 0deg 85%' },
+  { label: '俯视', orbit: '0deg 0deg 110%' },
 ];
 
 export function DriftModelViewer() {
