@@ -1,11 +1,77 @@
-import React from 'react';
+import { CSSProperties, useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-export const HeroBanner: React.FC = () => <section className="design-hero">
-  <div className="hero-intro"><p>郑一鸣 / 2027 届 · 船舶与海洋工程</p>
-    <h1>把海上的想象，<br />变成看得见的设计。</h1>
-    <p className="hero-description">游艇造型、空间设计与三维可视化。<br />从文化灵感出发，让概念有形，让体验可见。</p>
-    <div className="hero-actions"><Link className="design-button" to="/special-projects/drift-yacht">探索 DRIFT 60</Link><Link className="hero-secondary" to="/portfolio">浏览全部作品</Link></div>
-    <div className="hero-project-name"><strong>DRIFT</strong><span>60 米超级游艇概念设计 · 泛舟</span></div>
-  </div>
-  <Link to="/special-projects/drift-yacht" className="hero-visual" aria-label="查看 DRIFT 60 超级游艇重点案例"><img width={1600} height={900} {...{fetchpriority: "high"}} src={`${import.meta.env.BASE_URL}images/design/drift-image1.webp`} alt="DRIFT 60 大地色船体超级游艇的海上侧前方渲染" /><span>从海南纺织文化，到海上文化驿站</span></Link>
-</section>;
+import { ArrowDown, ArrowUpRight, Pause, Play } from 'lucide-react';
+
+const base = import.meta.env.BASE_URL;
+const reducedMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+const saveData = () => (navigator as Navigator & { connection?: { saveData?: boolean } }).connection?.saveData;
+
+export function HeroBanner() {
+  const stage = useRef<HTMLElement>(null);
+  const video = useRef<HTMLVideoElement>(null);
+  const [posterReady, setPosterReady] = useState(false);
+  const [enabled, setEnabled] = useState(() => !reducedMotion() && !saveData());
+  const [visible, setVisible] = useState(true);
+  const [pageVisible, setPageVisible] = useState(!document.hidden);
+  const [loaded, setLoaded] = useState(false);
+  const [playing, setPlaying] = useState(false);
+  const [failed, setFailed] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) => setVisible(entry.isIntersecting), { rootMargin: '-100px 0px 0px 0px' });
+    observer.observe(stage.current!);
+    const motion = matchMedia('(prefers-reduced-motion: reduce)');
+    const onMotionChange = () => { if (motion.matches) setEnabled(false); };
+    const onVisibility = () => setPageVisible(!document.hidden);
+    motion.addEventListener('change', onMotionChange);
+    document.addEventListener('visibilitychange', onVisibility);
+    return () => {
+      observer.disconnect();
+      motion.removeEventListener('change', onMotionChange);
+      document.removeEventListener('visibilitychange', onVisibility);
+    };
+  }, []);
+
+  useEffect(() => {
+    const element = video.current;
+    if (!element) return;
+    if (enabled && posterReady && visible && pageVisible && !failed) {
+      if (!element.getAttribute('src')) element.src = `${base}videos/drift-panorama.mp4`;
+      element.play().catch(error => { if (error.name !== 'AbortError') setEnabled(false); });
+    } else {
+      element.pause();
+    }
+  }, [enabled, posterReady, visible, pageVisible, failed]);
+
+  return (
+    <section ref={stage} id="cinematic-hero" className="cinema-hero" aria-label="DRIFT 超级游艇动态展示">
+      <div className="cinema-media" aria-hidden="true" style={{ '--hero-poster': `url(${base}images/design/drift-hero.webp)` } as CSSProperties}>
+        <img src={`${base}images/design/drift-hero.webp`} alt="" width={1920} height={1080}
+          {...{ fetchpriority: 'high' }} onLoad={() => setPosterReady(true)} onError={() => setPosterReady(true)} />
+        <video ref={video} className={loaded ? 'is-loaded' : ''} muted loop playsInline preload="none"
+          onPlaying={() => { setLoaded(true); setPlaying(true); }} onPause={() => setPlaying(false)}
+          onError={() => { setFailed(true); setEnabled(false); }} />
+      </div>
+      <div className="cinema-shade" />
+      <div className="cinema-copy">
+        <p className="cinema-kicker">60 米超级游艇概念设计 · 2026</p>
+        <h1><span>DRIFT</span><small>泛舟</small></h1>
+        <p className="cinema-tagline">探索海洋的无限可能。</p>
+        <Link className="cinema-project-link" to="/special-projects/drift-yacht">
+          进入设计专题 <ArrowUpRight size={20} aria-hidden="true" />
+        </Link>
+      </div>
+      <div className="cinema-bottom">
+        <button className="cinema-scroll" onClick={() => document.getElementById('home-introduction')?.scrollIntoView({ behavior: reducedMotion() ? 'instant' as ScrollBehavior : 'smooth' })}>
+          <ArrowDown size={16} aria-hidden="true" /><span>向下探索</span>
+        </button>
+        <span className="cinema-credit">郑一鸣 · 船舶与海洋设计</span>
+        <button className="cinema-play" disabled={failed} aria-label={playing ? '暂停首屏动态' : '播放首屏动态'}
+          onClick={() => setEnabled(!enabled)}>
+          {playing ? <Pause size={15} aria-hidden="true" /> : <Play size={15} aria-hidden="true" />}
+          <span>{failed ? '静态封面' : playing ? '暂停动态' : '播放动态'}</span>
+        </button>
+      </div>
+    </section>
+  );
+}

@@ -6,6 +6,7 @@ import '@styles/animations.css';
 import '@styles/design.css';
 import '@styles/refinements.css';
 import '@styles/studio.css';
+import '@styles/cinema.css';
 
 /**
  * 应用入口文件
