@@ -1,0 +1,24 @@
+import { NodeIO } from '@gltf-transform/core';
+import { ALL_EXTENSIONS } from '@gltf-transform/extensions';
+import { dedup, weld, simplify, prune, quantize, draco } from '@gltf-transform/functions';
+import draco3d from 'draco3dgltf';
+import { MeshoptSimplifier } from 'meshoptimizer';
+import { mkdir, stat, writeFile } from 'node:fs/promises';
+import path from 'node:path';
+
+const source = process.argv[2];
+if (!source) throw new Error('Pass a converted source GLB path.');
+await MeshoptSimplifier.ready;
+const io = new NodeIO().registerExtensions(ALL_EXTENSIONS).registerDependencies({'draco3d.encoder': await draco3d.createEncoderModule()});
+const doc = await io.read(source);
+const triangles = () => doc.getRoot().listMeshes().flatMap(m => m.listPrimitives()).reduce((n,p) => n + p.getIndices().getCount()/3, 0);
+const original = triangles();
+await doc.transform(dedup(), weld(), simplify({ simplifier: MeshoptSimplifier, ratio: 0.12, error: 0.0007 }), prune(), quantize({quantizePosition: 16, quantizeNormal: 10}), dedup());
+const modelPath = path.resolve('public/models/drift-60.glb');
+await mkdir(path.dirname(modelPath), {recursive: true});
+await doc.transform(draco({method: 'edgebreaker', quantizePosition: 16, quantizeNormal: 10}));
+await io.write(modelPath, doc);
+const bytes = (await stat(modelPath)).size;
+const info = { file: 'models/drift-60.glb', downloadMB: +(bytes/1024/1024).toFixed(1), triangles: triangles(), sourceTriangles: original, materials: doc.getRoot().listMaterials().length };
+await writeFile('src/data/drift-model.json', JSON.stringify(info,null,2)+'\n');
+console.log(JSON.stringify(info));

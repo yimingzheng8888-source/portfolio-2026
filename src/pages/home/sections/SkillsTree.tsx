@@ -46,7 +46,10 @@ export const SkillsTree: React.FC = () => {
                 const isActive = skill.id === activeSkill;
 
                 return (
-                  <motion.div
+                  <motion.button
+                    type="button"
+                    aria-pressed={isActive}
+                    onClick={() => setActiveSkill(skill.id)}
                     key={skill.id}
                     initial={{ opacity: 0, x: -30 }}
                     whileInView={{ opacity: 1, x: 0 }}
@@ -54,7 +57,7 @@ export const SkillsTree: React.FC = () => {
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                     onMouseEnter={() => setActiveSkill(skill.id)}
                     className={`
-                      relative p-5 md:p-6 rounded-xl cursor-pointer
+                      relative w-full text-left p-5 md:p-6 rounded-xl cursor-pointer
                       transition-all duration-300
                       ${isActive
                         ? 'bg-white shadow-lg border-l-4 border-accent'
@@ -81,7 +84,7 @@ export const SkillsTree: React.FC = () => {
 
                       </div>
                     </div>
-                  </motion.div>
+                  </motion.button>
                 );
               })}
             </div>

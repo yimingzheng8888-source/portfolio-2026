@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { motion, useInView, Variants } from 'framer-motion';
+import { motion, useInView, useReducedMotion, Variants } from 'framer-motion';
 
 export interface FadeInProps {
   /** 子元素 */
@@ -39,6 +39,7 @@ export const FadeIn: React.FC<FadeInProps> = ({
   className = '',
   threshold = 0.1,
 }) => {
+  const reduced = useReducedMotion();
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once, amount: threshold });
 
@@ -69,8 +70,8 @@ export const FadeIn: React.FC<FadeInProps> = ({
       x: 0,
       y: 0,
       transition: {
-        duration,
-        delay,
+        duration: reduced ? 0 : duration,
+        delay: reduced ? 0 : delay,
         ease: [0.25, 0.1, 0.25, 1],
       },
     },
@@ -79,8 +80,8 @@ export const FadeIn: React.FC<FadeInProps> = ({
   return (
     <motion.div
       ref={ref}
-      initial="hidden"
-      animate={isInView ? 'visible' : 'hidden'}
+      initial={reduced ? false : "hidden"}
+      animate={reduced || isInView ? 'visible' : 'hidden'}
       variants={variants}
       className={className}
     >

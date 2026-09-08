@@ -4,6 +4,7 @@ import { Router } from './app/router';
 import '@styles/global.css';
 import '@styles/animations.css';
 import '@styles/design.css';
+import '@styles/refinements.css';
 
 /**
  * 应用入口文件

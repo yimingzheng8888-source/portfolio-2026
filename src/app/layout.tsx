@@ -19,10 +19,11 @@ export const Layout: React.FC = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <a className="skip-link" href="#main-content" onClick={event => {event.preventDefault();document.getElementById('main-content')?.focus();}}>跳至主要内容</a>
       <Navbar />
 
       {/* 主内容区 - 为固定导航栏留出空间 */}
-      <main className="flex-1 pt-16 md:pt-20">
+      <main id="main-content" tabIndex={-1} className="flex-1 pt-16 md:pt-20">
         <Outlet />
       </main>
 
