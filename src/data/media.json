@@ -1,0 +1,1012 @@
+{
+  "/media/drift-cover": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/media/drift-cover-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/drift-cover-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/drift-cover-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/drift-cover-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/media/drift-hero": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/media/drift-hero-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/drift-hero-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/drift-hero-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/drift-hero-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/media/drift-walkway": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/media/drift-walkway-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/drift-walkway-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/drift-walkway-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/drift-walkway-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/media/drift-saloon": {
+    "width": 1920,
+    "height": 885,
+    "variants": [
+      {
+        "src": "/media/drift-saloon-480.webp",
+        "width": 479
+      },
+      {
+        "src": "/media/drift-saloon-960.webp",
+        "width": 959
+      },
+      {
+        "src": "/media/drift-saloon-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/drift-saloon-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/media/drift-workshop": {
+    "width": 1920,
+    "height": 885,
+    "variants": [
+      {
+        "src": "/media/drift-workshop-480.webp",
+        "width": 479
+      },
+      {
+        "src": "/media/drift-workshop-960.webp",
+        "width": 959
+      },
+      {
+        "src": "/media/drift-workshop-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/drift-workshop-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/media/drift-suite": {
+    "width": 1920,
+    "height": 885,
+    "variants": [
+      {
+        "src": "/media/drift-suite-480.webp",
+        "width": 479
+      },
+      {
+        "src": "/media/drift-suite-960.webp",
+        "width": 959
+      },
+      {
+        "src": "/media/drift-suite-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/drift-suite-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/media/drift-bow": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/media/drift-bow-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/drift-bow-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/drift-bow-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/drift-bow-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/media/drift-night": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/media/drift-night-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/drift-night-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/drift-night-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/drift-night-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/media/drift-stern": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/media/drift-stern-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/drift-stern-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/drift-stern-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/drift-stern-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/media/drift-aerial": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/media/drift-aerial-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/drift-aerial-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/drift-aerial-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/drift-aerial-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/media/whale-cover": {
+    "width": 1280,
+    "height": 720,
+    "variants": [
+      {
+        "src": "/media/whale-cover-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/whale-cover-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/whale-cover-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/whale-garden": {
+    "width": 1280,
+    "height": 720,
+    "variants": [
+      {
+        "src": "/media/whale-garden-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/whale-garden-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/whale-garden-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/whale-bath": {
+    "width": 1280,
+    "height": 720,
+    "variants": [
+      {
+        "src": "/media/whale-bath-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/whale-bath-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/whale-bath-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/whale-stern": {
+    "width": 1280,
+    "height": 720,
+    "variants": [
+      {
+        "src": "/media/whale-stern-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/whale-stern-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/whale-stern-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/whale-lounge": {
+    "width": 1280,
+    "height": 720,
+    "variants": [
+      {
+        "src": "/media/whale-lounge-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/whale-lounge-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/whale-lounge-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/blue-cover": {
+    "width": 7680,
+    "height": 5120,
+    "variants": [
+      {
+        "src": "/media/blue-cover-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/blue-cover-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/blue-cover-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/blue-cover-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/blue-cover-3200.webp",
+        "width": 3199
+      }
+    ]
+  },
+  "/media/blue-deck": {
+    "width": 7680,
+    "height": 4311,
+    "variants": [
+      {
+        "src": "/media/blue-deck-480.webp",
+        "width": 479
+      },
+      {
+        "src": "/media/blue-deck-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/blue-deck-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/blue-deck-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/blue-deck-3200.webp",
+        "width": 3200
+      }
+    ]
+  },
+  "/media/blue-lounge": {
+    "width": 7680,
+    "height": 4311,
+    "variants": [
+      {
+        "src": "/media/blue-lounge-480.webp",
+        "width": 479
+      },
+      {
+        "src": "/media/blue-lounge-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/blue-lounge-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/blue-lounge-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/blue-lounge-3200.webp",
+        "width": 3200
+      }
+    ]
+  },
+  "/media/blue-interior": {
+    "width": 7680,
+    "height": 5120,
+    "variants": [
+      {
+        "src": "/media/blue-interior-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/blue-interior-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/blue-interior-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/blue-interior-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/blue-interior-3200.webp",
+        "width": 3199
+      }
+    ]
+  },
+  "/media/blue-detail": {
+    "width": 7680,
+    "height": 5120,
+    "variants": [
+      {
+        "src": "/media/blue-detail-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/blue-detail-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/blue-detail-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/blue-detail-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/blue-detail-3200.webp",
+        "width": 3199
+      }
+    ]
+  },
+  "/media/blue-sketch": {
+    "width": 8000,
+    "height": 4474,
+    "variants": [
+      {
+        "src": "/media/blue-sketch-480.webp",
+        "width": 479
+      },
+      {
+        "src": "/media/blue-sketch-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/blue-sketch-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/blue-sketch-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/blue-sketch-3200.webp",
+        "width": 3200
+      }
+    ]
+  },
+  "/media/manta-cover": {
+    "width": 2560,
+    "height": 1440,
+    "variants": [
+      {
+        "src": "/media/manta-cover-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/manta-cover-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/manta-cover-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/manta-cover-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/manta-cover-2560.webp",
+        "width": 2560
+      }
+    ]
+  },
+  "/media/manta-motion": {
+    "width": 2940,
+    "height": 2102,
+    "variants": [
+      {
+        "src": "/media/manta-motion-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/manta-motion-960.webp",
+        "width": 959
+      },
+      {
+        "src": "/media/manta-motion-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/manta-motion-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/manta-motion-2940.webp",
+        "width": 2940
+      }
+    ]
+  },
+  "/media/manta-model": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/media/manta-model-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/manta-model-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/manta-model-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/manta-model-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/media/manta-system": {
+    "width": 2528,
+    "height": 2357,
+    "variants": [
+      {
+        "src": "/media/manta-system-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/manta-system-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/manta-system-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/manta-system-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/manta-system-2528.webp",
+        "width": 2528
+      }
+    ]
+  },
+  "/media/haiwei-cover": {
+    "width": 2560,
+    "height": 1377,
+    "variants": [
+      {
+        "src": "/media/haiwei-cover-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/haiwei-cover-960.webp",
+        "width": 959
+      },
+      {
+        "src": "/media/haiwei-cover-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/haiwei-cover-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/haiwei-cover-2560.webp",
+        "width": 2560
+      }
+    ]
+  },
+  "/media/haiwei-2": {
+    "width": 2560,
+    "height": 1393,
+    "variants": [
+      {
+        "src": "/media/haiwei-2-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/haiwei-2-960.webp",
+        "width": 959
+      },
+      {
+        "src": "/media/haiwei-2-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/haiwei-2-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/haiwei-2-2560.webp",
+        "width": 2560
+      }
+    ]
+  },
+  "/media/haiwei-3": {
+    "width": 2560,
+    "height": 1391,
+    "variants": [
+      {
+        "src": "/media/haiwei-3-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/haiwei-3-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/haiwei-3-1600.webp",
+        "width": 1599
+      },
+      {
+        "src": "/media/haiwei-3-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/haiwei-3-2560.webp",
+        "width": 2560
+      }
+    ]
+  },
+  "/media/dolphin-1": {
+    "width": 9565,
+    "height": 4051,
+    "variants": [
+      {
+        "src": "/media/dolphin-1-480.webp",
+        "width": 479
+      },
+      {
+        "src": "/media/dolphin-1-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/dolphin-1-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/dolphin-1-2400.webp",
+        "width": 2399
+      },
+      {
+        "src": "/media/dolphin-1-3200.webp",
+        "width": 3199
+      }
+    ]
+  },
+  "/media/dolphin-2": {
+    "width": 10412,
+    "height": 3946,
+    "variants": [
+      {
+        "src": "/media/dolphin-2-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/dolphin-2-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/dolphin-2-1600.webp",
+        "width": 1599
+      },
+      {
+        "src": "/media/dolphin-2-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/dolphin-2-3200.webp",
+        "width": 3200
+      }
+    ]
+  },
+  "/media/dolphin-real": {
+    "width": 1706,
+    "height": 1279,
+    "variants": [
+      {
+        "src": "/media/dolphin-real-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/dolphin-real-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/dolphin-real-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/dolphin-real-1706.webp",
+        "width": 1706
+      }
+    ]
+  },
+  "/media/whale-poster-01": {
+    "width": 4967,
+    "height": 7022,
+    "variants": [
+      {
+        "src": "/media/whale-poster-01-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/whale-poster-01-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/whale-poster-01-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/whale-poster-01-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/whale-poster-01-3200.webp",
+        "width": 3200
+      }
+    ]
+  },
+  "/media/whale-poster-02": {
+    "width": 4967,
+    "height": 7022,
+    "variants": [
+      {
+        "src": "/media/whale-poster-02-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/whale-poster-02-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/whale-poster-02-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/whale-poster-02-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/whale-poster-02-3200.webp",
+        "width": 3200
+      }
+    ]
+  },
+  "/media/whale-poster-03": {
+    "width": 4967,
+    "height": 7022,
+    "variants": [
+      {
+        "src": "/media/whale-poster-03-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/whale-poster-03-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/whale-poster-03-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/whale-poster-03-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/whale-poster-03-3200.webp",
+        "width": 3200
+      }
+    ]
+  },
+  "/media/whale-poster-04": {
+    "width": 4967,
+    "height": 7022,
+    "variants": [
+      {
+        "src": "/media/whale-poster-04-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/whale-poster-04-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/whale-poster-04-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/whale-poster-04-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/whale-poster-04-3200.webp",
+        "width": 3200
+      }
+    ]
+  },
+  "/media/drift-poster-01": {
+    "width": 4967,
+    "height": 7022,
+    "variants": [
+      {
+        "src": "/media/drift-poster-01-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/drift-poster-01-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/drift-poster-01-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/drift-poster-01-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/drift-poster-01-3200.webp",
+        "width": 3200
+      }
+    ]
+  },
+  "/media/drift-poster-02": {
+    "width": 3505,
+    "height": 4955,
+    "variants": [
+      {
+        "src": "/media/drift-poster-02-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/drift-poster-02-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/drift-poster-02-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/drift-poster-02-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/drift-poster-02-3200.webp",
+        "width": 3200
+      }
+    ]
+  },
+  "/media/drift-poster-03": {
+    "width": 1752,
+    "height": 2477,
+    "variants": [
+      {
+        "src": "/media/drift-poster-03-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/drift-poster-03-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/drift-poster-03-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/drift-poster-03-1752.webp",
+        "width": 1752
+      }
+    ]
+  },
+  "/media/blue-poster": {
+    "width": 4967,
+    "height": 7022,
+    "variants": [
+      {
+        "src": "/media/blue-poster-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/blue-poster-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/blue-poster-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/blue-poster-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/blue-poster-3200.webp",
+        "width": 3200
+      }
+    ]
+  },
+  "/media/drift-deck-1": {
+    "width": 6000,
+    "height": 1139,
+    "variants": [
+      {
+        "src": "/media/drift-deck-1-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/drift-deck-1-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/drift-deck-1-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/drift-deck-1-6000.webp",
+        "width": 6000
+      }
+    ]
+  },
+  "/media/drift-deck-2": {
+    "width": 6000,
+    "height": 1139,
+    "variants": [
+      {
+        "src": "/media/drift-deck-2-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/drift-deck-2-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/drift-deck-2-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/drift-deck-2-6000.webp",
+        "width": 6000
+      }
+    ]
+  },
+  "/media/drift-deck-3": {
+    "width": 6000,
+    "height": 1139,
+    "variants": [
+      {
+        "src": "/media/drift-deck-3-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/drift-deck-3-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/drift-deck-3-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/drift-deck-3-6000.webp",
+        "width": 6000
+      }
+    ]
+  },
+  "/media/drift-deck-4": {
+    "width": 6000,
+    "height": 1139,
+    "variants": [
+      {
+        "src": "/media/drift-deck-4-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/drift-deck-4-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/drift-deck-4-2400.webp",
+        "width": 2400
+      },
+      {
+        "src": "/media/drift-deck-4-6000.webp",
+        "width": 6000
+      }
+    ]
+  }
+}

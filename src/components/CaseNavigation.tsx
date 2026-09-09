@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-const sections=[['设计概念','project-story'],['三维浏览','interactive-model'],['展示视频','project-video'],['甲板布置','deck-plans'],['设计过程','design-process'],['竞赛展板','project-posters']];
+const sections=[['概念','project-story'],['空间','project-spaces'],['影片','project-video'],['三维浏览','interactive-model'],['甲板','deck-plans'],['过程','design-process'],['展板','project-posters']];
 export function CaseNavigation(){
  const [active,setActive]=useState('');
  useEffect(()=>{

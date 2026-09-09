@@ -5,14 +5,11 @@
     "category": "游艇设计",
     "shortDesc": "以海南纺织文化为灵感，将远洋探索、文化体验与可持续生活纳入一艘 60 米超级游艇的概念设计。",
     "description": "以海南纺织文化为灵感，将远洋探索、文化体验与可持续生活纳入一艘 60 米超级游艇的概念设计。",
-    "cover": "/images/design/drift-image1.webp",
+    "cover": "/media/drift-cover",
     "gallery": [
-      "/images/design/drift-image7.webp",
-      "/images/design/drift-image8.webp",
-      "/images/design/drift-image9.webp",
-      "/images/design/drift-image10.webp",
-      "/images/design/drift-image11.webp",
-      "/images/design/drift-image12.webp"
+      "/media/drift-saloon",
+      "/media/drift-workshop",
+      "/media/drift-suite"
     ],
     "date": "2026",
     "year": 2026,
@@ -34,16 +31,12 @@
     "processImages": [
       "/images/design/drift-image20.webp",
       "/images/design/drift-image2.webp",
-      "/images/design/drift-image21.webp",
-      "/images/design/drift-image22.webp",
-      "/images/design/drift-image24.webp",
-      "/images/design/drift-image19.webp"
+      "/images/design/drift-image21.webp"
     ],
     "sections": {
-      "background": "DRIFT（泛舟）面向海南实业家的探索与文化体验需求，提出“海上文化驿站”概念。项目从黄道婆与崖州纺织文化出发，把传统工艺中的秩序和材料色彩转译为现代游艇的造型语言。",
-      "challenge": "在 60 米级船体内协调生活、社交与探索装备空间，同时保持外观的连续性。设计还需要统筹四层甲板动线、潜水器收放、可展开停机坪与室内文化体验，使各模块服务于同一使用场景。",
-      "solution": "长椭圆阵列舷窗回应织机综杆的机械节奏，大地色船体取意于黎锦植物染色。舱内借鉴中式园林“移步换景”的空间序列，以多媒体隔断组织会客与就餐区，并提出 AR 创新工坊、垂直农场、光伏停机坪和沉水式艉平台方案。",
-      "result": "完成外观与家具建模、四层甲板布置、实时渲染、展示视频及中英文设计说明。作品集记录该项目获得第三届海南国际设计师大赛游艇设计分赛道优秀奖。说明书包含 STAR-CCM+ 静水阻力初步分析；续航、动力和生态循环系统为概念设计目标，并非建成实船的测试结果。"
+      "background": "以海南纺织文化为灵感，将传统工艺中的秩序与色彩，转译为一艘 60 米超级游艇的造型语言。",
+      "solution": "长椭圆舷窗呼应织机的节奏，大地色船体取意于黎锦植物染色。四层甲板串联会客、文化体验与远洋探索，让海上的生活围绕空间徐徐展开。",
+      "result": "完成造型建模、四层甲板布置、实时渲染与设计说明。获第三届海南国际设计师大赛游艇设计分赛道优秀奖。动力、续航与生态系统为概念方案，未作实船验证。"
     },
     "specs": [
       [
@@ -74,25 +67,25 @@
     "decks": [
       {
         "label": "飞桥甲板",
-        "image": "/images/design/asset-9.webp"
+        "image": "/media/drift-deck-1"
       },
       {
         "label": "上层甲板",
-        "image": "/images/design/asset-6.webp"
+        "image": "/media/drift-deck-2"
       },
       {
         "label": "主甲板",
-        "image": "/images/design/asset-8.webp"
+        "image": "/media/drift-deck-3"
       },
       {
         "label": "下层甲板",
-        "image": "/images/design/asset-7.webp"
+        "image": "/media/drift-deck-4"
       }
     ],
     "posters": [
-      "/images/design/asset-3.webp",
-      "/images/design/asset-4.webp",
-      "/images/design/asset-5.webp"
+      "/media/drift-poster-01",
+      "/media/drift-poster-02",
+      "/media/drift-poster-03"
     ],
     "featureImages": [
       "/images/design/drift-image17.webp",
@@ -105,9 +98,12 @@
     "category": "游艇设计",
     "shortDesc": "双体船、通透舷窗与可移动顶棚，共同构成面向水域观光的开放体验。",
     "description": "双体船、通透舷窗与可移动顶棚，共同构成面向水域观光的开放体验。",
-    "cover": "/images/design/blue-cover.webp",
+    "cover": "/media/blue-cover",
     "gallery": [
-      "/images/design/asset-24.webp"
+      "/media/blue-deck",
+      "/media/blue-lounge",
+      "/media/blue-interior",
+      "/media/blue-detail"
     ],
     "date": "2024",
     "year": 2024,
@@ -124,12 +120,17 @@
       "Illustrator"
     ],
     "video": null,
-    "processImages": [],
+    "processImages": [
+      "/media/blue-sketch"
+    ],
     "sections": {
       "background": "面向家庭、企业团队和游览团的中型游览船概念设计。",
       "solution": "采用双体布局，配合艏侧推进器；以全通透玻璃、两侧观光甲板、电动移动顶棚与蓝色灯带组织室内外体验。",
       "result": "完成设计说明、三维造型与展板。获 2024 大学生游轮游艇创新创意设计大赛三等奖。"
-    }
+    },
+    "posters": [
+      "/media/blue-poster"
+    ]
   },
   {
     "id": "whale-dream",
@@ -137,12 +138,12 @@
     "category": "游艇设计",
     "shortDesc": "以完整展板和动态影像呈现超级游艇的外观、总体布置与室内空间。",
     "description": "以完整展板和动态影像呈现超级游艇的外观、总体布置与室内空间。",
-    "cover": "/images/design/whale-cover.webp",
+    "cover": "/media/whale-cover",
     "gallery": [
-      "/images/design/asset-25.webp",
-      "/images/design/asset-26.webp",
-      "/images/design/asset-27.webp",
-      "/images/design/asset-28.webp"
+      "/media/whale-garden",
+      "/media/whale-bath",
+      "/media/whale-stern",
+      "/media/whale-lounge"
     ],
     "date": "2024.12",
     "year": 2024,
@@ -164,7 +165,13 @@
       "background": "第二届海南国际设计师大赛游艇设计分赛道参赛作品，与谢夏薇协作完成。",
       "solution": "通过整体造型、功能布置、局部空间与室内效果的多视角展示，建立从外观到生活场景的项目叙事。",
       "result": "完成四张展示版面及展示视频，作品获游艇设计分赛道铜奖。"
-    }
+    },
+    "posters": [
+      "/media/whale-poster-01",
+      "/media/whale-poster-02",
+      "/media/whale-poster-03",
+      "/media/whale-poster-04"
+    ]
   },
   {
     "id": "purify-manta",
@@ -172,12 +179,11 @@
     "category": "海洋产品",
     "shortDesc": "围绕水下清洗场景，展示仿生海洋航行器的整机造型、结构拆解与运动模式。",
     "description": "围绕水下清洗场景，展示仿生海洋航行器的整机造型、结构拆解与运动模式。",
-    "cover": "/images/design/asset-22.webp",
+    "cover": "/media/manta-cover",
     "gallery": [
-      "/images/design/asset-19.webp",
-      "/images/design/asset-20.webp",
-      "/images/design/asset-21.webp",
-      "/images/design/asset-18.webp"
+      "/media/manta-model",
+      "/media/manta-motion",
+      "/media/manta-system"
     ],
     "date": "设计作品",
     "year": 0,
@@ -194,7 +200,9 @@
       "结构表达"
     ],
     "video": null,
-    "processImages": [],
+    "processImages": [
+      "/images/design/asset-19.webp"
+    ],
     "sections": {
       "background": "海洋航行器设计项目，以蝠鲼形态探索水下清洗设备的产品表达。",
       "solution": "通过整机渲染、爆炸图、运动模式图和清洗流程图，说明外观、内部部件和作业场景之间的关系。",
@@ -207,11 +215,10 @@
     "category": "虚拟漫游",
     "shortDesc": "从甲板走道到水下网箱，以虚拟漫游呈现桁架式养殖网箱的空间尺度与结构。",
     "description": "从甲板走道到水下网箱，以虚拟漫游呈现桁架式养殖网箱的空间尺度与结构。",
-    "cover": "/images/design/asset-15.webp",
+    "cover": "/media/haiwei-cover",
     "gallery": [
-      "/images/design/asset-15.webp",
-      "/images/design/asset-16.webp",
-      "/images/design/asset-17.webp"
+      "/media/haiwei-2",
+      "/media/haiwei-3"
     ],
     "date": "设计作品",
     "year": 0,
@@ -241,12 +248,10 @@
     "category": "IP 设计",
     "shortDesc": "将海洋主题延伸到校园传播：从六组角色表情，到可携带的钥匙扣实物。",
     "description": "将海洋主题延伸到校园传播：从六组角色表情，到可携带的钥匙扣实物。",
-    "cover": "/images/design/asset-13.webp",
+    "cover": "/media/dolphin-1",
     "gallery": [
-      "/images/design/asset-11.webp",
-      "/images/design/asset-12.webp",
-      "/images/design/asset-13.webp",
-      "/images/design/asset-14.webp"
+      "/media/dolphin-2",
+      "/media/dolphin-real"
     ],
     "date": "设计作品",
     "year": 0,

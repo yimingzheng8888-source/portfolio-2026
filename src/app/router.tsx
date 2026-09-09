@@ -38,7 +38,7 @@ const router = createHashRouter(
  */
 function NotFoundPage(): React.ReactElement {
   return (
-    <div className="min-h-[60vh] flex flex-col items-center justify-center px-4">
+    <div className="section-shell empty-page">
       <h1 className="text-6xl font-bold text-primary mb-4">404</h1>
       <p className="text-xl text-text-secondary mb-8">页面未找到</p>
       <a

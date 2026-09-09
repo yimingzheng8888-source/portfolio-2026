@@ -20,7 +20,7 @@ export function useHomeMotion(root: RefObject<HTMLDivElement>) {
         animation.onfinish = () => animations.delete(animation);
       });
     }, { threshold: 0.08 });
-    root.current?.querySelectorAll('.home-introduction-copy, .selected-works > .section-heading, .featured-case, .secondary-works .work-card, .practice-layout, .awards-grid')
+    root.current?.querySelectorAll('[data-reveal]')
       .forEach(element => observer.observe(element));
     const stop = () => { if (media.matches) animations.forEach(animation => animation.cancel()); };
     media.addEventListener('change', stop);

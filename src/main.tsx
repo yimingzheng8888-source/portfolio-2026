@@ -1,12 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Router } from './app/router';
-import '@styles/global.css';
-import '@styles/animations.css';
-import '@styles/design.css';
-import '@styles/refinements.css';
-import '@styles/studio.css';
-import '@styles/cinema.css';
+import '@styles/editorial.css';
 
 /**
  * 应用入口文件

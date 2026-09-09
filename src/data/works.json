@@ -7,14 +7,11 @@
     "client": "第三届海南国际设计师大赛游艇设计分赛道",
     "description": "以海南纺织文化为灵感，将远洋探索、文化体验与可持续生活纳入一艘 60 米超级游艇的概念设计。",
     "fullDescription": "以海南纺织文化为灵感，将远洋探索、文化体验与可持续生活纳入一艘 60 米超级游艇的概念设计。",
-    "thumbnail": "/images/design/drift-image1.webp",
+    "thumbnail": "/media/drift-cover",
     "images": [
-      "/images/design/drift-image7.webp",
-      "/images/design/drift-image8.webp",
-      "/images/design/drift-image9.webp",
-      "/images/design/drift-image10.webp",
-      "/images/design/drift-image11.webp",
-      "/images/design/drift-image12.webp"
+      "/media/drift-saloon",
+      "/media/drift-workshop",
+      "/media/drift-suite"
     ],
     "tags": [
       "Rhino",
@@ -33,9 +30,12 @@
     "client": "设计作品",
     "description": "双体船、通透舷窗与可移动顶棚，共同构成面向水域观光的开放体验。",
     "fullDescription": "双体船、通透舷窗与可移动顶棚，共同构成面向水域观光的开放体验。",
-    "thumbnail": "/images/design/blue-cover.webp",
+    "thumbnail": "/media/blue-cover",
     "images": [
-      "/images/design/asset-24.webp"
+      "/media/blue-deck",
+      "/media/blue-lounge",
+      "/media/blue-interior",
+      "/media/blue-detail"
     ],
     "tags": [
       "Rhino",
@@ -53,12 +53,12 @@
     "client": "设计作品",
     "description": "以完整展板和动态影像呈现超级游艇的外观、总体布置与室内空间。",
     "fullDescription": "以完整展板和动态影像呈现超级游艇的外观、总体布置与室内空间。",
-    "thumbnail": "/images/design/whale-cover.webp",
+    "thumbnail": "/media/whale-cover",
     "images": [
-      "/images/design/asset-25.webp",
-      "/images/design/asset-26.webp",
-      "/images/design/asset-27.webp",
-      "/images/design/asset-28.webp"
+      "/media/whale-garden",
+      "/media/whale-bath",
+      "/media/whale-stern",
+      "/media/whale-lounge"
     ],
     "tags": [
       "三维可视化",
@@ -76,12 +76,11 @@
     "client": "设计作品",
     "description": "围绕水下清洗场景，展示仿生海洋航行器的整机造型、结构拆解与运动模式。",
     "fullDescription": "围绕水下清洗场景，展示仿生海洋航行器的整机造型、结构拆解与运动模式。",
-    "thumbnail": "/images/design/asset-22.webp",
+    "thumbnail": "/media/manta-cover",
     "images": [
-      "/images/design/asset-19.webp",
-      "/images/design/asset-20.webp",
-      "/images/design/asset-21.webp",
-      "/images/design/asset-18.webp"
+      "/media/manta-model",
+      "/media/manta-motion",
+      "/media/manta-system"
     ],
     "tags": [
       "仿生设计",
@@ -99,11 +98,10 @@
     "client": "设计作品",
     "description": "从甲板走道到水下网箱，以虚拟漫游呈现桁架式养殖网箱的空间尺度与结构。",
     "fullDescription": "从甲板走道到水下网箱，以虚拟漫游呈现桁架式养殖网箱的空间尺度与结构。",
-    "thumbnail": "/images/design/asset-15.webp",
+    "thumbnail": "/media/haiwei-cover",
     "images": [
-      "/images/design/asset-15.webp",
-      "/images/design/asset-16.webp",
-      "/images/design/asset-17.webp"
+      "/media/haiwei-2",
+      "/media/haiwei-3"
     ],
     "tags": [
       "场景搭建",
@@ -121,12 +119,10 @@
     "client": "设计作品",
     "description": "将海洋主题延伸到校园传播：从六组角色表情，到可携带的钥匙扣实物。",
     "fullDescription": "将海洋主题延伸到校园传播：从六组角色表情，到可携带的钥匙扣实物。",
-    "thumbnail": "/images/design/asset-13.webp",
+    "thumbnail": "/media/dolphin-1",
     "images": [
-      "/images/design/asset-11.webp",
-      "/images/design/asset-12.webp",
-      "/images/design/asset-13.webp",
-      "/images/design/asset-14.webp"
+      "/media/dolphin-2",
+      "/media/dolphin-real"
     ],
     "tags": [
       "角色设计",

@@ -1,5 +1,1 @@
-import { Link } from 'react-router-dom';
-import { specialProjects } from '@data/special-projects';
-const caseIds=['drift-yacht','blue-ring-yacht','whale-dream'];
-export function SpecialProjectsListPage(){return <div className="section-shell case-index"><header className="editorial-heading"><p>设计案例</p><h1>三艘船，三种体验。</h1><p>从超级游艇到水域观光，阅读造型、空间和表达背后的设计思路。</p></header>{caseIds.map(id=>specialProjects.find(p=>p.id===id)!).map(project=><article key={project.id} className="case-index-item"><Link to={`/special-projects/${project.id}`}><img src={`${import.meta.env.BASE_URL}${project.cover.slice(1)}`} alt={project.title} width="1200" height="800" loading="lazy"/></Link><div><span>{project.date} · {project.category}</span><h2><Link to={`/special-projects/${project.id}`}>{project.title}</Link></h2><p>{project.shortDesc}</p><p className="case-index-role">{project.role}</p><Link className="quiet-button" to={`/special-projects/${project.id}`}>阅读案例</Link></div></article>)}<Link className="quiet-button" to="/portfolio">浏览全部 7 个作品</Link></div>}
-export default SpecialProjectsListPage;
+export { PortfolioPage as SpecialProjectsListPage } from '../portfolio';

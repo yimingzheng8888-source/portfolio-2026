@@ -1,6 +1,7 @@
-import { CSSProperties, useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowDown, ArrowUpRight, Pause, Play } from 'lucide-react';
+import { MediaImage } from '@components/MediaImage';
 
 const base = import.meta.env.BASE_URL;
 const reducedMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -36,7 +37,7 @@ export function HeroBanner() {
     const element = video.current;
     if (!element) return;
     if (enabled && posterReady && visible && pageVisible && !failed) {
-      if (!element.getAttribute('src')) element.src = `${base}videos/drift-panorama.mp4`;
+      if (!element.getAttribute('src')) element.src = `${base}videos/${matchMedia('(max-width: 767px)').matches ? 'drift-panorama-mobile.mp4' : 'drift-panorama.mp4'}`;
       element.play().catch(error => { if (error.name !== 'AbortError') setEnabled(false); });
     } else {
       element.pause();
@@ -45,8 +46,8 @@ export function HeroBanner() {
 
   return (
     <section ref={stage} id="cinematic-hero" className="cinema-hero" aria-label="DRIFT 超级游艇动态展示">
-      <div className="cinema-media" aria-hidden="true" style={{ '--hero-poster': `url(${base}images/design/drift-hero.webp)` } as CSSProperties}>
-        <img src={`${base}images/design/drift-hero.webp`} alt="" width={1920} height={1080}
+      <div className="cinema-media" aria-hidden="true">
+        <MediaImage src="/media/drift-hero" alt="" sizes="100vw"
           {...{ fetchpriority: 'high' }} onLoad={() => setPosterReady(true)} onError={() => setPosterReady(true)} />
         <video ref={video} className={loaded ? 'is-loaded' : ''} muted loop playsInline preload="none"
           onPlaying={() => { setLoaded(true); setPlaying(true); }} onPause={() => setPlaying(false)}
@@ -54,11 +55,10 @@ export function HeroBanner() {
       </div>
       <div className="cinema-shade" />
       <div className="cinema-copy">
-        <p className="cinema-kicker">60 米超级游艇概念设计 · 2026</p>
+        <p className="cinema-kicker">SELECTED PROJECT 01 / 2026</p>
         <h1><span>DRIFT</span><small>泛舟</small></h1>
-        <p className="cinema-tagline">探索海洋的无限可能。</p>
         <Link className="cinema-project-link" to="/special-projects/drift-yacht">
-          进入设计专题 <ArrowUpRight size={20} aria-hidden="true" />
+          60 米超级游艇 · 查看项目 <ArrowUpRight size={20} aria-hidden="true" />
         </Link>
       </div>
       <div className="cinema-bottom">

@@ -90,8 +90,8 @@ export function DriftModelViewer() {
   };
 
   return <section className="case-section model-section" id="interactive-model" aria-labelledby="model-heading">
-    <div className="model-section-heading"><div><p>从模型理解设计</p><h2 id="model-heading">DRIFT，自由转动的视角</h2></div><span>交互式 3D</span></div>
-    <p className="case-hint">旋转观察船体比例、甲板层次与外观细节，也可以直接切换预设视角。</p>
+    <div className="model-section-heading"><div><p>INTERACTIVE MODEL</p><h2 id="model-heading">换一个角度，看见细节。</h2></div><span>交互式 3D</span></div>
+
     <div className="model-panel" ref={panel}>
       <div className="model-stage" aria-busy={status === 'loading'}>
         {activated && createElement('model-viewer', {
@@ -138,4 +138,3 @@ export function DriftModelViewer() {
     <p className="model-disclosure">由原始 Rhino 模型转换。保留船体与甲板几何、可转换材质；网页灯光和部分材质表现与最终渲染图略有差异。</p>
   </section>;
 }
-
