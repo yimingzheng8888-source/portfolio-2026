@@ -1014,19 +1014,19 @@
     "height": 1080,
     "variants": [
       {
-        "src": "/media/drift-showreel-poster-480.webp",
+        "src": "/media/drift-showreel-poster-480.webp?v=exterior-first",
         "width": 480
       },
       {
-        "src": "/media/drift-showreel-poster-960.webp",
+        "src": "/media/drift-showreel-poster-960.webp?v=exterior-first",
         "width": 960
       },
       {
-        "src": "/media/drift-showreel-poster-1600.webp",
+        "src": "/media/drift-showreel-poster-1600.webp?v=exterior-first",
         "width": 1600
       },
       {
-        "src": "/media/drift-showreel-poster-1920.webp",
+        "src": "/media/drift-showreel-poster-1920.webp?v=exterior-first",
         "width": 1920
       }
     ]

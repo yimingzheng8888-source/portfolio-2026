@@ -37,7 +37,7 @@ export function HeroBanner() {
     const element = video.current;
     if (!element) return;
     if (enabled && posterReady && visible && pageVisible && !failed) {
-      if (!element.getAttribute('src')) element.src = `${base}videos/${matchMedia('(max-width: 767px)').matches ? 'drift-showreel-mobile.mp4' : 'drift-showreel.mp4'}`;
+      if (!element.getAttribute('src')) element.src = `${base}videos/${matchMedia('(max-width: 767px)').matches ? 'drift-showreel-mobile.mp4' : 'drift-showreel.mp4'}?v=exterior-first`;
       element.play().catch(error => { if (error.name !== 'AbortError') setEnabled(false); });
     } else {
       element.pause();
