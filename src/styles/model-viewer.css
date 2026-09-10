@@ -1,6 +1,6 @@
 .model-section-heading { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
-.model-section-heading p { font-size: 13px; color: #8b6731; margin-bottom: 10px; }
-.model-section-heading > span { font-size: 12px; color: #546571; background: #edf2f4; border-radius: 5px; padding: 7px 12px; white-space: nowrap; }
+.model-section-heading p { font-size: 14px; color: #8b6731; margin-bottom: 10px; }
+.model-section-heading > span { font-size: 14px; color: #546571; background: #edf2f4; border-radius: 5px; padding: 7px 12px; white-space: nowrap; }
 .model-panel { background: #edf1f3; border: 1px solid #dce3e7; border-radius: 12px; overflow: hidden; }
 .model-stage { position: relative; height: clamp(360px, 46vw, 580px); background: radial-gradient(ellipse at 50% 38%, #cbd4dc, #91a4b3); }
 .model-stage model-viewer { display: block; width: 100%; height: 100%; --progress-bar-color: #a88243; --poster-color: transparent; }
@@ -8,20 +8,20 @@
 .model-poster > img { width: 90%; max-height: 78%; object-fit: contain; margin-bottom: 30px; }
 .model-start-panel { position: absolute; left: 24px; right: 24px; bottom: 24px; display: flex; flex-direction: column; align-items: center; text-align: center; }
 .model-start { display: inline-flex; align-items: center; gap: 10px; box-shadow: 0 3px 14px #2437471a; }
-.model-start-panel p { margin: 10px 0 0; color: #4f606b; font-size: 13px; }
+.model-start-panel p { margin: 10px 0 0; color: #4f606b; font-size: 14px; }
 .model-start-panel [role=status], .model-start-panel [role=alert] { background: #fffffff0; color: #394b58; padding: 16px 25px; border-radius: 8px; max-width: 460px; font-size: 14px; }
 .model-start-panel [role=alert] p { margin: 0 0 15px; }
 .model-start-panel progress { display: block; width: 220px; max-width: 100%; height: 7px; margin-top: 10px; accent-color: #a88243; }
 .model-controls { padding: 15px 18px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; border-top: 1px solid #d4dde2; background: #fff; }
 .model-view-buttons, .model-tool-buttons { display: flex; flex-wrap: wrap; gap: 6px; }
-.model-controls button { background: #f0f3f5; border: 1px solid transparent; border-radius: 5px; color: #405361; min-height: 40px; padding: 8px 13px; font-size: 13px; }
+.model-controls button { background: #f0f3f5; border: 1px solid transparent; border-radius: 5px; color: #405361; min-height: 40px; padding: 8px 13px; font-size: 14px; }
 .model-controls button[aria-pressed=true] { background: #213c4e; color: #fff; }
 .model-controls button:hover:not(:disabled) { border-color: #879ea9; }
 .model-controls button:disabled { opacity: .45; cursor: not-allowed; }
 .model-tool-buttons button { width: 40px; padding: 10px; }
-.model-instructions { padding: 0 18px 15px; display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; color: #637783; font-size: 12px; background: white; }
-.model-disclosure { font-size: 12px; color: #6b7780; line-height: 1.85; margin: 14px 0 0; }
-.model-notice { padding: 5px 18px 15px; margin: 0; font-size: 13px; background: white; }
+.model-instructions { padding: 0 18px 15px; display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; color: #637783; font-size: 14px; background: white; line-height: 1.75; }
+.model-disclosure { font-size: 14px; color: #6b7780; line-height: 1.85; margin: 14px 0 0; }
+.model-notice { padding: 5px 18px 15px; margin: 0; font-size: 14px; background: white; }
 .model-panel:fullscreen { border: 0; border-radius: 0; display: flex; flex-direction: column; }
 .model-panel:fullscreen .model-stage { height: auto; flex: 1; min-height: 0; }
 .model-panel:fullscreen .model-controls, .model-panel:fullscreen .model-instructions { flex-shrink: 0; }
@@ -32,9 +32,9 @@
   .model-poster > img { width: 100%; margin-bottom: 65px; }
   .model-start-panel { left: 15px; right: 15px; bottom: 20px; }
   .model-controls { padding: 12px; gap: 10px; }
-  .model-view-buttons { width: 100%; display: grid; grid-template-columns: repeat(5,1fr); gap: 4px; }
-  .model-view-buttons button { padding: 8px 3px; font-size: 11px; }
+  .model-view-buttons { width: 100%; display: flex; gap: 8px; flex-wrap: wrap; }
+  .model-view-buttons button { padding: 9px 12px; font-size: 14px; }
   .model-tool-buttons { width: 100%; justify-content: center; gap: 12px; }
-  .model-instructions { justify-content: center; font-size: 11px; padding: 0 12px 12px; }
+  .model-instructions { justify-content: center; font-size: 14px; padding: 0 12px 12px; line-height: 1.75; text-align: center; }
 }
 
