@@ -1008,5 +1008,27 @@
         "width": 6000
       }
     ]
+  },
+  "/media/drift-showreel-poster": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/media/drift-showreel-poster-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/drift-showreel-poster-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/drift-showreel-poster-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/media/drift-showreel-poster-1920.webp",
+        "width": 1920
+      }
+    ]
   }
 }

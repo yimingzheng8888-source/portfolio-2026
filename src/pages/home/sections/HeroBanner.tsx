@@ -37,7 +37,7 @@ export function HeroBanner() {
     const element = video.current;
     if (!element) return;
     if (enabled && posterReady && visible && pageVisible && !failed) {
-      if (!element.getAttribute('src')) element.src = `${base}videos/${matchMedia('(max-width: 767px)').matches ? 'drift-panorama-mobile.mp4' : 'drift-panorama.mp4'}`;
+      if (!element.getAttribute('src')) element.src = `${base}videos/${matchMedia('(max-width: 767px)').matches ? 'drift-showreel-mobile.mp4' : 'drift-showreel.mp4'}`;
       element.play().catch(error => { if (error.name !== 'AbortError') setEnabled(false); });
     } else {
       element.pause();
@@ -47,7 +47,7 @@ export function HeroBanner() {
   return (
     <section ref={stage} id="cinematic-hero" className="cinema-hero" aria-label="DRIFT 超级游艇动态展示">
       <div className="cinema-media" aria-hidden="true">
-        <MediaImage src="/media/drift-hero" alt="" sizes="100vw"
+        <MediaImage src="/media/drift-showreel-poster" alt="" sizes="100vw"
           {...{ fetchpriority: 'high' }} onLoad={() => setPosterReady(true)} onError={() => setPosterReady(true)} />
         <video ref={video} className={loaded ? 'is-loaded' : ''} muted loop playsInline preload="none"
           onPlaying={() => { setLoaded(true); setPlaying(true); }} onPause={() => setPlaying(false)}
